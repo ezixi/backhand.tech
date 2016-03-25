@@ -1,0 +1,76 @@
+
+/*
+    Colors
+    ------
+
+    Red = #CE534D
+    Dark Brown = #46433A
+    Light Brown = #DED4B9
+    Blue = #64B6B1
+
+*/
+
+body {
+    background-color: #fff;
+    color: #46433A;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-align: justify;
+    line-height: 1.7;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Oxygen', sans-serif;
+}
+
+h1, address {
+    font-weight: 700;
+}
+
+
+ul {
+    list-style: none;
+}
+
+.jumbotron {
+    background-color: #CE534D;
+    color: #fff;
+}
+
+
+.about div {
+    padding: 20px;
+
+}
+
+.about div:first-child {
+  border-right: 1px solid #ccc;
+}
+
+.about img, .writing img {
+    padding-right: 20px;
+}
+
+.experience {
+    padding: 30px;
+    background-color: #DED4B9;
+}
+
+.experience .col-md-6 ul {
+    list-style: initial;
+}
+
+.education, .award {
+    padding: 30px;
+    background-color: #46433A;
+    color: #DED4B9;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+}
+
+address {
+    padding-top: 10px;
+}

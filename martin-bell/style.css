@@ -32,9 +32,14 @@ ul {
     list-style: none;
 }
 
+.navbar {
+    border-bottom: 1px solid #ccc;
+}
+
 .jumbotron {
-    background-color: #CE534D;
-    color: #fff;
+    /*background-color: #CE534D;
+    color: #fff;*/
+    background-color: #fff;
 }
 
 

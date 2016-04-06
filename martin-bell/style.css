@@ -45,7 +45,6 @@ ul {
 
 .about div {
     padding: 20px 60px;
-
 }
 
 .about div:first-child {
@@ -78,4 +77,10 @@ footer {
 
 address {
     padding-top: 10px;
+}
+
+@media (max-width: 978px) {
+    .about div {
+        padding: 20px;
+    }
 }

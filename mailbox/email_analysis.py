@@ -1,7 +1,15 @@
 #!/usr/bin/python
 import mailbox
+import logging
 
-src_mbox = mailbox.Maildir('data/backhandstories.mbox')
+logging.basicConfig(filename='email_analysis.log', level=logging.DEBUG)
+src_mbox = mailbox.mbox('data/Starred.mbox')
 
-for msg in src_mbox:
-    print msg
+
+def main():
+    for msg in src_mbox:
+        print msg['subject']
+
+
+if __name__ == "__main__":
+    main()

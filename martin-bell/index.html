@@ -257,6 +257,7 @@
             ga('create', 'UA-275020-4', 'auto');
             ga('require', 'autotrack');
             ga('send', 'pageview');
+            setTimeout("ga('send', 'event', { eventCategory: '30 seconds on page', eventAction: 'Read' })", 30000);
         </script>
         <script async src='https://www.google-analytics.com/analytics.js'></script>
         <script async src='autotrack.js'></script>

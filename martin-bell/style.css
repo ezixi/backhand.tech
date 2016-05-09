@@ -64,7 +64,7 @@ ul {
     list-style: initial;
 }
 
-.education, .award {
+.education, .award, .contact {
     padding: 30px;
     background-color: #46433A;
     color: #DED4B9;

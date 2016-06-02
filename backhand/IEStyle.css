@@ -1,0 +1,32 @@
+/*
+Theme Name: Backhand Stories
+Theme URI: http://www.backhandstories.com
+Description: New theme for backhandstories.com.
+Version: IE Hacks
+Author: Martin Bell
+Author URI: http://www.backhandmedia.com
+
+*/
+
+#page  {
+	height: 100%;
+	}
+	
+h2.widgettitle span {
+	margin-bottom: 20px;
+	}
+	
+ p:first-child:first-letter {
+	float: none;
+	font-size:100%;
+	color: #000;
+			}
+			
+div.headerNav {
+	margin-top: 20px;
+	}
+	
+form#searchform {
+	margin-top: -20px;
+	}
+

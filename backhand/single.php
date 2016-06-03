@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<?php get_sidebar(); ?>
+
 	<div id="content" class="widecolumn">
 
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
@@ -89,5 +89,5 @@ adroll_render_link = true;
 
 
 	</div>
-
+<?php get_sidebar(); ?>
 <?php get_footer(); ?>

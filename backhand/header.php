@@ -71,4 +71,3 @@ xmlns:fb="http://www.facebook.com/2008/fbml" <?php language_attributes(); ?>>
     		<?php include (TEMPLATEPATH . '/searchform.php'); ?>
     </nav>
 
-    <hr />

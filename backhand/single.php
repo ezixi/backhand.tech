@@ -1,6 +1,8 @@
 <?php get_header(); ?>
 
-	<div id="content" class="widecolumn">
+<div class="row">
+	<article class="col-md-10">
+
 
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
@@ -26,18 +28,7 @@
 				<?php wp_link_pages(array('before' => '<p><strong>Pages:</strong> ', 'after' => '</p>', 'next_or_number' => 'number')); ?>
 				<?php the_tags( '<p>Tags: ', ', ', '</p>'); ?>
 				</div>
-<div class="secondAd" style="text-align: center;">
-<div style="text-align: center;">
-<script type="text/javascript"><!--
-adroll_width = 468;
-adroll_height = 60;
-adroll_a_id = "7IGULJ7LKFGQPKGV2VONVR";
-adroll_s_id = "HWAHKIBOMZCFLLZ7P3PBMO";
-adroll_render_link = true;
-//--></script>
-<script type="text/javascript" src="http://a.adroll.com/j/rolling.js"></script>
-</div>
-</div>
+
 				<p class="postmetadata alt">
 					<small>
 						This entry was posted
@@ -88,6 +79,8 @@ adroll_render_link = true;
 		</div>
 
 
-	</div>
+	</article>
+<div class="col-md-2">
 <?php get_sidebar(); ?>
+</div>
 <?php get_footer(); ?>

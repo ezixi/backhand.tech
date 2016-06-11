@@ -34,7 +34,7 @@ xmlns:fb="http://www.facebook.com/2008/fbml" <?php language_attributes(); ?>>
 <meta name="twitter:site" content="@backhandstories" />
 <meta name="twitter:creator" content="@backhandmedia" />
 <meta name="twitter:title" content="<?php wp_title(); ?>" />
-<!--<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />-->
+<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
 <link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> RSS Feed" href="<?php bloginfo('rss2_url'); ?>" />
 <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 <link rel="amphtml" href="http://mercury.postlight.com/amp?url=<?php the_permalink() ?>"/>
@@ -53,9 +53,16 @@ xmlns:fb="http://www.facebook.com/2008/fbml" <?php language_attributes(); ?>>
         <script async src="<?php bloginfo('template_url'); ?>/scripts/autotrack.js"></script>
 </head>
 <body>
-<div id="page" class="container-fluid">
-    <nav id="header" class="navbar navbar-default">
-    	<h1><a href="<?php echo get_option('home'); ?>/">Short story writing and creative fiction, essays and non-fiction stories.</a></h1>
+<div class="container-fluid">
+    <nav class="navbar">
+    <div class="container-fluid">
+        <div class="navbar-header">
+    	   <h1>
+                <a class="navbar-brand" href="<?php echo get_option('home'); ?>/">
+                    <img class="img-responsive" src="<?php bloginfo('template_url'); ?>/images/logo.png" alt="Short story writing and creative fiction, essays and non-fiction stories." />
+               </a>
+           </h1>
+        </div>
     	<div class="headerNav">
     	   <ul id="headerNavTwo">
     				<li><a id="fiction" href="<?php echo get_option('home'); ?>/fiction">Fiction</a></li>
@@ -64,10 +71,8 @@ xmlns:fb="http://www.facebook.com/2008/fbml" <?php language_attributes(); ?>>
     				<li><a id="submit"href="http://www.backhandstories.com/submission-guidelines/">Submit</a></li>
     				<li><a id="credit" href="http://www.backhandmedia.com">A Backhand Media Project</a></li>
     			</ul>
-    			
-    				
+ 				
     		</div>
-    		
-    		<?php include (TEMPLATEPATH . '/searchform.php'); ?>
+    	</div>	
     </nav>
 

@@ -41,6 +41,13 @@ xmlns:fb="http://www.facebook.com/2008/fbml" <?php language_attributes(); ?>>
 
 
 <?php wp_head(); ?>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-3583480902555622",
+    enable_page_level_ads: true
+  });
+</script>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
         <script>
@@ -55,24 +62,30 @@ xmlns:fb="http://www.facebook.com/2008/fbml" <?php language_attributes(); ?>>
 <body>
 <div class="container-fluid">
     <nav class="navbar">
-    <div class="container-fluid">
-        <div class="navbar-header">
-    	   <h1>
-                <a class="navbar-brand" href="<?php echo get_option('home'); ?>/">
-                    <img class="img-responsive" src="<?php bloginfo('template_url'); ?>/images/logo.png" alt="Short story writing and creative fiction, essays and non-fiction stories." />
-               </a>
-           </h1>
-        </div>
-    	<div class="headerNav">
-    	   <ul id="headerNavTwo">
-    				<li><a id="fiction" href="<?php echo get_option('home'); ?>/fiction">Fiction</a></li>
-    				<li><a id="nonFiction"href="<?php echo get_option('home'); ?>/non-fiction">Non-Fiction</a></li>
-    				<li><a id="essays"href="<?php echo get_option('home'); ?>/essays">Essays</a></li>
-    				<li><a id="submit"href="http://www.backhandstories.com/submission-guidelines/">Submit</a></li>
-    				<li><a id="credit" href="http://www.backhandmedia.com">A Backhand Media Project</a></li>
-    			</ul>
- 				
-    		</div>
-    	</div>	
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+        	   <h1>
+                    <a class="navbar-brand" href="<?php echo get_option('home'); ?>/">
+                        <img class="img-responsive" src="<?php bloginfo('template_url'); ?>/images/logo.png" alt="Short story writing and creative fiction, essays and non-fiction stories." />
+                   </a>
+               </h1>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+           	    <ul class="nav nav-tabs">
+            		<li role="presentation"><a id="fiction" href="<?php echo get_option('home'); ?>/fiction">Fiction</a></li>
+            		<li role="presentation"><a id="nonFiction"href="<?php echo get_option('home'); ?>/non-fiction">Non-Fiction</a></li>
+            		<li role="presentation"><a id="essays"href="<?php echo get_option('home'); ?>/essays">Essays</a></li>
+            		<li role="presentation"><a id="submit"href="http://www.backhandstories.com/submission-guidelines/">Submit</a></li>
+            	</ul>
+
+                <p><a href="http://www.backhandmedia.com">A Backhand Media Project</a></p>
+      	     </div>
+        </div>	
     </nav>
 

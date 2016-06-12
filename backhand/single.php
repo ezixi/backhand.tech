@@ -12,6 +12,16 @@
 			<h2><a href="<?php echo get_permalink() ?>" rel="bookmark" title="Permanent Link: <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
 
 			<div class="entry">
+			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- midcontent -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3583480902555622"
+     data-ad-slot="6343393958"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 				<?php the_content('<p class="serif">Read the rest of this story &raquo;</p>'); ?>
 <div id="socialBookmarks">
 <h3>Did you like this short story? Recommend it to your friends...</h3>

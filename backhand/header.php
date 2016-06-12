@@ -61,20 +61,21 @@ xmlns:fb="http://www.facebook.com/2008/fbml" <?php language_attributes(); ?>>
 </head>
 <body>
 <div class="container-fluid">
-    <nav class="navbar">
+    <nav class="navbar navbar-default navbar-static-top">
         <div class="container-fluid">
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <h1>
+                    <a class="navbar-brand" href="<?php echo get_option('home'); ?>/">
+                        <img class="img-responsive" src="<?php bloginfo('template_url'); ?>/images/logo.png" alt="Short story writing and creative fiction, essays and non-fiction stories." />
+                    </a>
+                </h1>
+                <button type="button" class="navbar-toggle collapsed navbar-left" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-        	   <h1>
-                    <a class="navbar-brand" href="<?php echo get_option('home'); ?>/">
-                        <img class="img-responsive" src="<?php bloginfo('template_url'); ?>/images/logo.png" alt="Short story writing and creative fiction, essays and non-fiction stories." />
-                   </a>
-               </h1>
+                <p class="navbar-text navbar-right"><a class="navbar-link" href="http://www.backhandmedia.com">A Backhand Media Project</a></p>
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
            	    <ul class="nav nav-tabs">
@@ -83,8 +84,6 @@ xmlns:fb="http://www.facebook.com/2008/fbml" <?php language_attributes(); ?>>
             		<li role="presentation"><a id="essays"href="<?php echo get_option('home'); ?>/essays">Essays</a></li>
             		<li role="presentation"><a id="submit"href="http://www.backhandstories.com/submission-guidelines/">Submit</a></li>
             	</ul>
-
-                <p><a href="http://www.backhandmedia.com">A Backhand Media Project</a></p>
       	     </div>
         </div>	
     </nav>

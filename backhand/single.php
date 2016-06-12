@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <div class="row">
-	<article class="col-md-10">
+	<article class="col-md-12">
 
 
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
@@ -12,29 +12,8 @@
 			<h2><a href="<?php echo get_permalink() ?>" rel="bookmark" title="Permanent Link: <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
 
 			<div class="entry">
-			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- midcontent -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3583480902555622"
-     data-ad-slot="6343393958"
-     data-ad-format="auto"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
 				<?php the_content('<p class="serif">Read the rest of this story &raquo;</p>'); ?>
-<div id="socialBookmarks">
-<h3>Did you like this short story? Recommend it to your friends...</h3>
-	
-		<a href="http://twitter.com/share" class="twitter-share-button" data-count="none" data-via="backhandstories" onClick="recordOutboundLink(this, 'TwitterShare', '<?php the_title(); ?>');return false;">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
-		<a href="http://twitter.com/Backhandstories" class="twitter-follow-button" onClick="recordOutboundLink(this, 'TwitterFollow', '<?php the_title(); ?>');return false;">Follow @Backhandstories</a><script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
-	<g:plusone></g:plusone>
-		<iframe id="fbookframe" src="http://www.facebook.com/plugins/like.php?href=<?php the_permalink() ?>&amp;layout=standard&amp;show_faces=false&amp;width=300&amp;action=like&amp;font=arial&amp;colorscheme=light&amp;height=35" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:300px; height:35px;" allowTransparency="true"></iframe>
 
-		
-	
-
-</div>
 				<?php wp_link_pages(array('before' => '<p><strong>Pages:</strong> ', 'after' => '</p>', 'next_or_number' => 'number')); ?>
 				<?php the_tags( '<p>Tags: ', ', ', '</p>'); ?>
 				</div>

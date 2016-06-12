@@ -11,19 +11,39 @@ Author URI: http://www.backhandmedia.com
 body {
     background-color: #333;
     font-family: Georgia;
+    font-size: 1.7em;
+    color: #333;
 }
 
-nav {
-    background-color: #666;
+nav .container-fluid{
+   color: #999;
+   background-color: #333;
 }
 
 article {
     background-color: #f4f2f2;
 }
+
 h1 {
-
-    }
-
-h1 a {
-
+    margin-top: -10px;
 }
+
+h2 {
+    padding: 10px 0 30px;
+}
+
+.entry p {
+    line-height: 175%;
+}
+
+.entry p:first-child {
+    border-top: 1px solid #ccc;
+    padding-top: 105px;
+    background: transparent url(images/mechHand.jpg) no-repeat top center;
+        }
+
+.entry p:first-child:first-line {
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: 120%;
+    }

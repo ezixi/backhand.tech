@@ -7,6 +7,10 @@ if ( function_exists('register_sidebar') )
         'after_title' => '</h2>',
     ));
 
+//remove new emoji code
+remove_action( 'wp_head', 'print_emoji_detection_script', 7 );
+remove_action( 'wp_print_styles', 'print_emoji_styles' );
+
 function kubrick_head() {
 	$head = "<style type='text/css'>\n<!--";
 	$output = '';
@@ -413,4 +417,5 @@ function kubrick_theme_page() {
 		</div>
 	</div>
 </div>
+
 <?php } ?>

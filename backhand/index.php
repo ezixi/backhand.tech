@@ -2,7 +2,6 @@
 <h2 id="about">Backhand Stories is a <strong>creative writing blog</strong> that publishes new <a href="<?php echo get_option('home'); ?>/fiction">short stories</a>, flash fiction, <a href="<?php echo get_option('home'); ?>/non-fiction">non-fiction</a> and <a href="<?php echo get_option('home'); ?>/essays">essays</a> by new and unpublished writers. <a id="submit"href="http://www.backhandstories.com/submission-guidelines/">Submit</a> your own short story!</h2>
 
 <h3 id="newStories">Newest short stories</h3>
-<!-- google_ad_section_end -->
 
 <?php if (have_posts()) : ?>
 <?php while (have_posts()) : the_post(); ?>

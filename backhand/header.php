@@ -56,20 +56,21 @@
         <script async src="<?php bloginfo('template_url'); ?>/scripts/autotrack.js"></script>
     </head>
     <body>
-            <nav class="navbar navbar-default navbar-static-top">
+        <nav class="navbar navbar-default navbar-static-top">
                 <div class="container-fluid">
                     <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed navbar-left" data-toggle="collapse" data-target="#main-nav" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
                         <h1 class="navbar-brand" >
                         <a href="<?php echo get_option('home'); ?>/">
                             <img class="img-responsive" src="<?php bloginfo('template_url'); ?>/images/logo.png" alt="Short story writing and creative fiction, essays and non-fiction stories." />
                         </a>
                         </h1>
-                        <button type="button" class="navbar-toggle collapsed navbar-left" data-toggle="collapse" data-target="#main-nav" aria-expanded="false">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        </button>
+
                     </div>
                     <div class="collapse navbar-collapse" id="main-nav">
                         <ul class="nav navbar-nav">
@@ -82,4 +83,3 @@
                     </div>
                 </div>
             </nav>
-            <div class="container-fluid">

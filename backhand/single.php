@@ -1,4 +1,5 @@
 <?php get_header(); ?>
+<div class="container">
 <div class="row">
 	<article class="col-md-10">
 		<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
@@ -16,14 +17,10 @@
 		<?php endwhile; else: ?>
 		<p>Sorry, no posts matched your criteria.</p>
 		<?php endif; ?>
-		<div class="navigation">
-			
-			<p>Previous: <?php previous_post_link('&laquo; %link') ?></p>
-			
-			<p>Next: <?php next_post_link('%link &raquo;') ?></p>
-		</div>
 	</article>
 	<div class="col-md-2">
 		<?php get_sidebar(); ?>
 	</div>
-	<?php get_footer(); ?>
+</div>
+</div>
+		<?php get_footer(); ?>

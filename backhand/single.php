@@ -18,7 +18,7 @@
 		<p>Sorry, no posts matched your criteria.</p>
 		<?php endif; ?>
 	</article>
-	<div class="col-md-2">
+	<div class="col-md-2" id="sidebar">
 		<?php get_sidebar(); ?>
 	</div>
 </div>

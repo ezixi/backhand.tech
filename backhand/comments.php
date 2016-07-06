@@ -18,9 +18,9 @@
 ?>
 
 <!-- You can start editing here. -->
-
+<div class="container comments">
 <?php if ($comments) : ?>
-	<div class="container-fluid comments">
+
 	<h3 id="comments"><?php comments_number('No Responses', 'One Response', '% Responses' );?> to &#8220;<?php the_title(); ?>&#8221;</h3>
 
 	<ol class="commentlist">
@@ -65,6 +65,7 @@
 
 
 <?php if ('open' == $post->comment_status) : ?>
+	
 
 <h3 id="respond">Leave a comment about this story.</h3>
 

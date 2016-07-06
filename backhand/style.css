@@ -60,9 +60,6 @@ body {
     
 }
 
-article, #about{
-
-}
 
 h1 {
 
@@ -75,6 +72,7 @@ h2 {
 
 .entry p {
     line-height: 175%;
+
 }
 
 .entry p:first-child {
@@ -90,14 +88,47 @@ h2 {
     }
 
 .comments {
-    background-color: #eee;
-    box-shadow: 1px 1px 1px #888888;
-    margin: 0;
-    padding: 10px;
+    border-top: 1px solid #ccc;
+}
+
+
+.widgettitle {
+    text-transform: uppercase;
+    color: #999;
+}
+
+#sidebar {
+    border-top: 1px solid #ccc;
+    margin-top: 30px;
+    text-align: center;
+    padding-left : 10px;
+    font-size: 90%;
+}
+#sidebar ul {
+    list-style: none;
+    padding-left: 0;
+ }
+
+#sidebar ul li {
+    padding: 10px 0;
 }
 
 @media (min-width: 768px) { 
     .navbar-collapse {
         padding-top: 30px;
     }
+
+    .widgettitle {
+       font-size: 0.9em;
+    }
+
+    #sidebar {
+    border-top: none;
+    margin-top: 0;
+    }
+    
+    article{
+    text-align: justify;
+}
+
 }

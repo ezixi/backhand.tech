@@ -1,4 +1,3 @@
-<div id="sidebar">
     <ul>
         <?php   /* Widgetized sidebar, if you have the plugin installed. */
         if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar() ) : ?>
@@ -46,4 +45,3 @@ for <strong>'<?php the_search_query(); ?>'</strong>. If you are unable to find a
 <?php } ?>
 <?php endif; ?>
 </ul>
-</div>

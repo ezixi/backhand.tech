@@ -1,16 +1,10 @@
 <?php get_header(); ?>
-<?php get_sidebar(); ?>
-	<div id="content" class="narrowcolumn">
-
+<div class="container">
+  <div class="row">
+  <div class="col-md-10">
 	<?php if (have_posts()) : ?>
 
 		<h2 class="pagetitle">Search Results</h2>
-
-		<div class="navigation">
-		<p><?php next_posts_link('&laquo; Older Entries') ?></p>
-		<p><?php previous_posts_link('Newer Entries &raquo;') ?></p>
-		</div>
-
 
 		<?php while (have_posts()) : the_post(); ?>
 
@@ -23,11 +17,6 @@
 
 		<?php endwhile; ?>
 
-		<div class="navigation">
-			<div class="alignleft"><?php next_posts_link('&laquo; Older Entries') ?></div>
-			<div class="alignright"><?php previous_posts_link('Newer Entries &raquo;') ?></div>
-		</div>
-
 	<?php else : ?>
 
 		<h2 class="center">No posts found. Try a different search?</h2>
@@ -37,6 +26,9 @@
 
 	</div>
 
-
-
+      <div class="col-md-2" id="sidebar">
+        <?php get_sidebar(); ?>
+      </div>
+</div>
+</div>
 <?php get_footer(); ?>

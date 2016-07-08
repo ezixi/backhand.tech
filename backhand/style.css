@@ -9,7 +9,7 @@ Author URI: http://www.backhandmedia.com
 */
 
 body {
-    font-family: "Adobe Caslon",Georgia,"Times New Roman",Times,serif;
+    font-family: '"Adobe Caslon"',Georgia,"Times New Roman",Times,serif;
     font-size: 1.7em;
     color: #333;
     background-color: #f4f2f2;
@@ -46,7 +46,7 @@ body {
 }
 
 .navbar-default {
-    box-shadow: 0px 1px 1px #888888;
+    box-shadow: 0px 1px 1px #ccc;
 }
 
 #sidebar {
@@ -67,8 +67,21 @@ h1 {
 
 h2 {
     text-align: center;
+    text-transform: uppercase;
+
 }
 
+h2 a {
+
+}
+
+.jumbotron h2 {
+    font-size: 1em;
+    text-align: justify;
+    font-family: "Adobe Caslon",Georgia,"Times New Roman",Times,serif;
+    line-height: 175%;
+    text-transform: none;
+}
 
 .entry p {
     line-height: 175%;
@@ -87,6 +100,22 @@ h2 {
     font-size: 120%;
     }
 
+.col-md-4 .entry p:first-child {
+    background: none;
+    padding-top: 5px;
+}
+
+.col-md-4 .entry {
+    min-height: 250px;
+}
+
+#home .post h2 {
+    font-size: 1em;
+    line-height: 150%;
+    min-height: 50px;
+    vertical-align: middle;
+}
+
 .comments {
     border-top: 1px solid #ccc;
 }
@@ -102,7 +131,6 @@ h2 {
     margin-top: 30px;
     text-align: center;
     padding-left : 10px;
-    font-size: 90%;
 }
 #sidebar ul {
     list-style: none;
@@ -111,7 +139,14 @@ h2 {
 
 #sidebar ul li {
     padding: 10px 0;
+
 }
+
+.jumbotron {
+    padding: 10px;
+    box-shadow: 0px 1px 1px #ccc;
+    border: 1px solid #ccc;
+    }
 
 @media (min-width: 768px) { 
     .navbar-collapse {
@@ -125,10 +160,16 @@ h2 {
     #sidebar {
     border-top: none;
     margin-top: 0;
+    font-size: 0.8em;
+
     }
     
-    article{
+    article {
     text-align: justify;
-}
+    }
+
+    .post.col-md-6 {
+        padding: 30px;
+    }
 
 }

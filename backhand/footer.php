@@ -10,13 +10,13 @@
                 <a class="social" href="https://www.facebook.com/BackhandStories/" onclick="return !window.open(this.href, 'Facebook', 'width=1000,height=600')" target="_blank"><i class="fa fa-3x fa-facebook"></i></a>
                 <a class="social" href="https://twitter.com/intent/follow?screen_name=@backhandstories" onclick="return !window.open(this.href, 'Twitter', 'width=600,height=500')" target="_blank"><i class="fa fa-3x fa-twitter"></i></a>
                 <p><a href="http://www.backhandmedia.com">A Backhand Media Project</a></p>
-            <p>&copy; Backhand Media. All work remains the property of the author unless otherwise stated.</p>
+                <p>&copy; Backhand Media. All work remains the property of the author unless otherwise stated.</p>
             </div>
         </div>
-
     </div>
 </div>
 </footer>
+<script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us1.list-manage.com","uuid":"acd03a3a5a2beadc0a29fb56a","lid":"75597ad534"}) })</script>
+<script async src="<?php bloginfo('template_url'); ?>/scripts/analytics.js"></script>
 </body>
 </html>
-

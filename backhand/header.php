@@ -15,7 +15,7 @@
         <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
-        <script src="https://use.fontawesome.com/73f45f37af.js"></script>
+        <script async src="https://use.fontawesome.com/73f45f37af.js"></script>
         <title><?php wp_title(); ?> Short stories, flash fiction and creative writing online. </title>
         <meta name="description" content="<?php wp_title(); ?>" />
         <meta name="keywords" content="short story, creative writing, short stories, fiction, short fiction, non-fiction stories, short story blog, creative writing blog, submit a story, new writers" />
@@ -45,8 +45,8 @@
         enable_page_level_ads: true
         });
         </script>
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-        <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+        <script async src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script async src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
         <script>
         window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
         ga('create', 'UA-275020-1', 'auto');

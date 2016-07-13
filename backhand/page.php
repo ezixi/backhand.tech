@@ -11,7 +11,6 @@
 				</div>
 			</div>
 			<?php endwhile; endif; ?>
-			<?php edit_post_link('Edit this entry.', '<p>', '</p>'); ?>
 		</div>
 		<div class="col-md-2" id="sidebar">
 			<?php get_sidebar(); ?>

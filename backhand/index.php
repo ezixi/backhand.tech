@@ -13,15 +13,34 @@
 			</div>
 		</article>
 		<?php endwhile; ?>
-		<div class="navigation">
-			<div class="alignleft"><?php next_posts_link('&laquo; Older Entries') ?></div>
-			<div class="alignright"><?php previous_posts_link('Newer Entries &raquo;') ?></div>
+		<div class="col-md-4 ad">
+			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+			<!-- main square -->
+			<ins class="adsbygoogle"
+			style="display:block"
+			data-ad-client="ca-pub-3583480902555622"
+			data-ad-slot="9254863950"
+			data-ad-format="auto"></ins>
+			<script>
+			(adsbygoogle = window.adsbygoogle || []).push({});
+			</script>
 		</div>
-		<?php else : ?>
-		<h2 class="center">Not Found</h2>
-		<p class="center">Sorry, but you are looking for something that isn't here.</p>
-		<?php include (TEMPLATEPATH . "/searchform.php"); ?>
-		<?php endif; ?>
+	</div>
+	<div class="row">
+	<nav class="pull-right">
+		<ul class="pagination">
+			<li>
+				<?php echo paginate_links( $args ); ?>
+			</li>
+		</ul>
+	</nav>
 	</div>
 </div>
-	<?php get_footer(); ?>
+<?php else : ?>
+<h2 class="center">Not Found</h2>
+<p class="center">Sorry, but you are looking for something that isn't here.</p>
+<?php include (TEMPLATEPATH . "/searchform.php"); ?>
+<?php endif; ?>
+
+</div>
+<?php get_footer(); ?>

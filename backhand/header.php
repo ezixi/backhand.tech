@@ -21,16 +21,8 @@
         <meta name="keywords" content="short story, creative writing, short stories, fiction, short fiction, non-fiction stories, short story blog, creative writing blog, submit a story, new writers" />
         <meta name="verify-v1" content="niXdEoBrgiaTeGk1x1dt46QiDrY8Ea112YAuZxoDSF0=" />
         <meta name="y_key" content="004a99a9334081ee" >
-        <meta property="fb:page_id" content="115638515178061" />
-        <meta property="og:title" content="Short stories and creative writing online: <?php wp_title(); ?>"/>
-        <meta property="og:type" content="article"/>
-        <meta property="og:url" content="<?php the_permalink() ?>"/>
-        <meta property="og:image" content="http://www.backhandstories.com/wp-content/themes/backhand/images/mechHand.jpg"/>
-        <meta property="og:site_name" content="Backhand Stories"/>
-        <meta property="og:description" content="Read this story on Backhand Stories, the creative writing blog that publishes new short stories, flash fiction, non-fiction and essays by new and unpublished writers. Submit your own short story!"/>
         <meta property="fb:admins" content="618395819"/>
-        <meta name="twitter:card" content="summary" />
-        <meta name="twitter:site" content="@backhandstories" />
+        <meta property="fb:app_id" content="391918975268">
         <meta name="twitter:creator" content="@backhand" />
         <meta name="twitter:title" content="<?php wp_title(); ?>" />
         <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />

@@ -26,7 +26,22 @@ echo paginate_links( array(
         'before_page_number' => '<span class="screen-reader-text">'.$translated.' </span>'
 ) );
 
-
+function jeherve_custom_image( $media, $post_id, $args ) {
+    if ( $media ) {
+        return $media;
+    } else {
+        $permalink = get_permalink( $post_id );
+        $url = apply_filters( 'jetpack_photon_url', 'http://www.backhandstories.com/wp-content/uploads/2016/07/fb_default.png' );
+     
+        return array( array(
+            'type'  => 'image',
+            'from'  => 'custom_fallback',
+            'src'   => esc_url( $url ),
+            'href'  => $permalink,
+        ) );
+    }
+}
+add_filter( 'jetpack_images_get_images', 'jeherve_custom_image', 10, 3 );
 
 
 

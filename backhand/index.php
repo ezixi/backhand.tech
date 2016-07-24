@@ -5,35 +5,27 @@
 	</div>
 	<div class="row">
 		<?php if (have_posts()) : ?>
+		<?php include (TEMPLATEPATH . "/ads.php"); ?>
+		<?php $firstMarked = false; ?>
 		<?php while (have_posts()) : the_post(); ?>
-		<article class="post col-md-4" id="post-<?php the_ID(); ?>">
+		<article class="post <?php echo !$firstMarked ? "col-md-8":"col-md-4";?> " id="post-<?php the_ID(); ?>">
 			<h2><?php the_category(', ') ?>: <a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
 			<div class="entry">
 				<?php the_content('Read the rest of this story &raquo;'); ?>
 			</div>
 		</article>
+		<?php $firstMarked = true;?>
 		<?php endwhile; ?>
-		<div class="col-md-4 ad">
-			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-			<!-- main square -->
-			<ins class="adsbygoogle"
-			style="display:block"
-			data-ad-client="ca-pub-3583480902555622"
-			data-ad-slot="9254863950"
-			data-ad-format="auto"></ins>
-			<script>
-			(adsbygoogle = window.adsbygoogle || []).push({});
-			</script>
-		</div>
+		<?php include (TEMPLATEPATH . "/ads.php"); ?>
 	</div>
 	<div class="row">
-	<nav class="pull-right">
-		<ul class="pagination">
-			<li>
-				<?php echo paginate_links( $args ); ?>
-			</li>
-		</ul>
-	</nav>
+		<nav class="pull-right">
+			<ul class="pagination">
+				<li>
+					<?php echo paginate_links( $args ); ?>
+				</li>
+			</ul>
+		</nav>
 	</div>
 </div>
 <?php else : ?>
@@ -41,6 +33,5 @@
 <p class="center">Sorry, but you are looking for something that isn't here.</p>
 <?php include (TEMPLATEPATH . "/searchform.php"); ?>
 <?php endif; ?>
-
 </div>
 <?php get_footer(); ?>

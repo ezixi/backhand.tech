@@ -47,6 +47,7 @@
         </script>
         <script async src='https://www.google-analytics.com/analytics.js'></script>
         <script async src="<?php bloginfo('template_url'); ?>/scripts/autotrack.js"></script>
+        <script src="https://use.fontawesome.com/73f45f37af.js"></script>
     </head>
     <body>
         <nav class="navbar navbar-default navbar-static-top">

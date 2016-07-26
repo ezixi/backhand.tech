@@ -48,32 +48,44 @@
         <script async src='https://www.google-analytics.com/analytics.js'></script>
         <script async src="<?php bloginfo('template_url'); ?>/scripts/autotrack.js"></script>
         <script src="https://use.fontawesome.com/73f45f37af.js"></script>
+        <!-- Facebook Pixel Code -->
+        <script>
+        !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+        n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+        document,'script','https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '170302946705000');
+        fbq('track', "PageView");</script>
+        <noscript><img height="1" width="1" style="display:none"
+        src="https://www.facebook.com/tr?id=170302946705000&ev=PageView&noscript=1"
+        /></noscript>
+        <!-- End Facebook Pixel Code -->
     </head>
     <body>
         <nav class="navbar navbar-default navbar-static-top">
-                <div class="container-fluid">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed navbar-left" data-toggle="collapse" data-target="#main-nav" aria-expanded="false">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <h1 class="navbar-brand" >
-                        <a href="<?php echo get_option('home'); ?>/">
-                            <img class="img-responsive" src="<?php bloginfo('template_url'); ?>/images/logo.png" alt="Short story writing and creative fiction, essays and non-fiction stories." />
-                        </a>
-                        </h1>
-
-                    </div>
-                    <div class="collapse navbar-collapse" id="main-nav">
-                        <ul class="nav navbar-nav">
-                            <li role="presentation"><a id="fiction" href="<?php echo get_option('home'); ?>/fiction/">Fiction</a></li>
-                            <li role="presentation"><a id="nonFiction" href="<?php echo get_option('home'); ?>/non-fiction/">Non-Fiction</a></li>
-                            <li role="presentation"><a id="essays" href="<?php echo get_option('home'); ?>/essays/">Essays</a></li>
-                            <li role="presentation"><a id="submit" href="<?php echo get_option('home'); ?>/submission-guidelines/">Submit</a></li>
-                        </ul>
-                        <?php include (TEMPLATEPATH . '/searchform.php'); ?>
-                    </div>
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed navbar-left" data-toggle="collapse" data-target="#main-nav" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    </button>
+                    <h1 class="navbar-brand" >
+                    <a href="<?php echo get_option('home'); ?>/">
+                        <img class="img-responsive" src="<?php bloginfo('template_url'); ?>/images/logo.png" alt="Short story writing and creative fiction, essays and non-fiction stories." />
+                    </a>
+                    </h1>
                 </div>
-            </nav>
+                <div class="collapse navbar-collapse" id="main-nav">
+                    <ul class="nav navbar-nav">
+                        <li role="presentation"><a id="fiction" href="<?php echo get_option('home'); ?>/fiction/">Fiction</a></li>
+                        <li role="presentation"><a id="nonFiction" href="<?php echo get_option('home'); ?>/non-fiction/">Non-Fiction</a></li>
+                        <li role="presentation"><a id="essays" href="<?php echo get_option('home'); ?>/essays/">Essays</a></li>
+                        <li role="presentation"><a id="submit" href="<?php echo get_option('home'); ?>/submission-guidelines/">Submit</a></li>
+                    </ul>
+                    <?php include (TEMPLATEPATH . '/searchform.php'); ?>
+                </div>
+            </div>
+        </nav>

@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<div class="container">
+<div class="container" id="home">
 	<div class="row">
 		<?php is_tag(); ?>
 		<?php if (have_posts()) : ?>
@@ -19,13 +19,16 @@
 		<?php /* If this is a paged archive */ } elseif (isset($_GET['paged']) && !empty($_GET['paged'])) { ?>
 		<h2 class="pagetitle">Blog Archives</h2>
 		<?php } ?>
+		<?php include (TEMPLATEPATH . "/ads.php"); ?>
+		<?php $firstMarked = false; ?>
 		<?php while (have_posts()) : the_post(); ?>
-		<article class="post col-md-4">
+		<article class="post <?php echo !$firstMarked ? "col-md-8":"col-md-4";?> " id="post-<?php the_ID(); ?>">
 			<h2 id="post-<?php the_ID(); ?>"><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
 			<div class="entry">
 				<?php the_content('Read the rest of this story &raquo;'); ?>
 			</div>
 		</article>
+		<?php $firstMarked = true;?>
 		<?php endwhile; ?>
 		<div class="col-md-4 ad">
 			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>

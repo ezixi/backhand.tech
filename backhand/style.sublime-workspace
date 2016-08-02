@@ -1,0 +1,640 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"bac",
+				"background-image"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"t",
+				"table-row"
+			],
+			[
+				"list-sty",
+				"list-style-position"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"n",
+				"none"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"background-",
+				"background-color"
+			],
+			[
+				"word",
+				"wordpress"
+			],
+			[
+				"wor",
+				"wordpress"
+			],
+			[
+				"send",
+				"sendToGA"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"tra",
+				"trackOutboundLink"
+			],
+			[
+				"u",
+				"ul	Tag"
+			],
+			[
+				"backroun",
+				"background-color"
+			],
+			[
+				"fo",
+				"font-style"
+			],
+			[
+				"conte",
+				"context"
+			],
+			[
+				"ca",
+				"category_trend_com"
+			],
+			[
+				"nest",
+				"nest_epubarchive_subjects"
+			],
+			[
+				"tri",
+				"trial_start_date"
+			],
+			[
+				"cu",
+				"current_date"
+			],
+			[
+				"dat",
+				"dataAccessId"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"re",
+				"resultset"
+			],
+			[
+				"retu",
+				"returning_users"
+			],
+			[
+				"window",
+				"window_length"
+			],
+			[
+				"windo",
+				"window_length"
+			],
+			[
+				"cd",
+				"cda_path"
+			],
+			[
+				"us",
+				"user_key"
+			],
+			[
+				"second",
+				"second_usage_date"
+			],
+			[
+				"first",
+				"first_usage_date"
+			],
+			[
+				"date",
+				"date_key"
+			],
+			[
+				"user",
+				"user_key"
+			],
+			[
+				"s",
+				"selectable"
+			],
+			[
+				"f",
+				"false"
+			],
+			[
+				"post",
+				"postFetch"
+			],
+			[
+				"pos",
+				"postExecution"
+			],
+			[
+				"star",
+				"start_date"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"event",
+				"event_date"
+			],
+			[
+				"tria",
+				"trial_date"
+			],
+			[
+				"tr",
+				"trial_date"
+			],
+			[
+				"trial",
+				"trial_start_date"
+			],
+			[
+				"ex",
+				"expected_revenue"
+			],
+			[
+				"S",
+				"String"
+			],
+			[
+				"bi",
+				"biserver-ce"
+			],
+			[
+				"bucketed",
+				"bucketedbar"
+			],
+			[
+				"E",
+				"End_date"
+			],
+			[
+				"experiment",
+				"experiment_observation"
+			],
+			[
+				"que",
+				"queued_titles"
+			],
+			[
+				"q",
+				"q_count"
+			],
+			[
+				"day",
+				"days_from_trial"
+			],
+			[
+				"id",
+				"identifier"
+			],
+			[
+				"i",
+				"identifier"
+			],
+			[
+				"user_",
+				"user_tutorial"
+			],
+			[
+				"ti",
+				"tutorials_tutorial"
+			],
+			[
+				"fi",
+				"finished_time"
+			],
+			[
+				"U",
+				"User"
+			],
+			[
+				"C",
+				"Completed"
+			],
+			[
+				"finished",
+				"finished_time"
+			],
+			[
+				"tu",
+				"tutorials_lesson"
+			],
+			[
+				"co",
+				"complete_percentage"
+			],
+			[
+				"fin",
+				"fin_per_user"
+			],
+			[
+				"tut",
+				"tutorial_id"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 360.0,
+		"last_filter": "inst",
+		"selected_items":
+		[
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"xml",
+				"Set Syntax: XML"
+			],
+			[
+				"sq",
+				"SQL Beautifier: Format Current SQL File"
+			],
+			[
+				"fo",
+				"Code Folding: Unfold All"
+			],
+			[
+				"sql",
+				"SQL Beautifier: Format Current SQL File"
+			],
+			[
+				"prefs",
+				"Preferences: SublimeLinter Settings – User"
+			],
+			[
+				"lin",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 511.0
+	},
+	"console":
+	{
+		"height": 292.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/martin/.bash_aliases",
+		"/run/user/1000/gvfs/ftp:host=ftp.backhandstories.com/public_html/wp-content/advanced-cache.php",
+		"/home/martin/Desktop/Downloads/plos_usvpn/plosConnect.sh",
+		"/home/martin/.profile",
+		"/home/martin/.bashrc",
+		"/etc/environment",
+		"/home/martin/.bash_login",
+		"/home/martin/Desktop/Downloads/plos_usvpn.tar.gz?version=1",
+		"/home/martin/backhandmedia/dashboard/styles.css",
+		"/home/martin/backhandmedia/dashboard/index.html",
+		"/home/martin/backhandmedia/backhand/style.css",
+		"/home/martin/backhandmedia/backhand/header.php",
+		"/home/martin/backhandmedia/backhand/footer.php",
+		"/home/martin/backhandmedia/backhand/ads.php",
+		"/home/martin/backhandmedia/backhand/archive.php",
+		"/home/martin/backhandmedia/backhand/index.php",
+		"/home/martin/backhandmedia/backhand/scripts/scripts.js",
+		"/home/martin/.config/sublime-text-3/Packages/User/SublimeLinter.sublime-settings",
+		"/home/martin/backhandmedia/backhand/functions.php",
+		"/run/user/1000/gvfs/ftp:host=ftp.backhandstories.com/public_html/wp-settings.php",
+		"/run/user/1000/gvfs/ftp:host=ftp.backhandstories.com/public_html/wp-config.php",
+		"/run/user/1000/gvfs/ftp:host=ftp.backhandstories.com/public_html/wp-admin/options.php",
+		"/home/martin/backhandmedia/backhand/scripts/embed.js",
+		"/home/martin/Desktop/.htaccess",
+		"/home/martin/backhandmedia/backhand/page.php",
+		"/home/martin/backhandmedia/backhand/single.php",
+		"/home/martin/backhandmedia/backhand/scripts/analytics.js",
+		"/run/user/1000/gvfs/ftp:host=ftp.backhandstories.com/public_html/wp-content/themes/backhand2016/style.css",
+		"/home/martin/backhandmedia/backhand/comments.php",
+		"/home/martin/backhandmedia/backhand/rtl.css",
+		"/home/martin/backhandmedia/backhand/links.php",
+		"/home/martin/backhandmedia/backhand/archives.php",
+		"/home/martin/backhandmedia/backhand/404.php",
+		"/home/martin/backhandmedia/backhand/searchform.php",
+		"/home/martin/backhandmedia/backhand/search.php",
+		"/home/martin/backhandmedia/backhand/images/aboutBH.gif",
+		"/home/martin/backhandmedia/backhand/sidebar.php",
+		"/home/martin/backhandmedia/backhand/images/header-img.php",
+		"/home/martin/Desktop/index.html",
+		"/var/www/html/wp-content/themes/backhand/header.php",
+		"/var/www/html/wp-content/themes/backhand/single.php",
+		"/home/martin/Documents/backhandMedia/Resa Shore/event_tracking.js",
+		"/var/www/html/wp-content/themes/backhand/footer.php",
+		"/home/martin/Documents/Yourmoneyhealth",
+		"/home/martin/Desktop/Downloads/Necks_-_2015_-_Vertigo_(FLAC__ReR_NECKS_12)/Necks - 2015 - Vertigo (FLAC, ReR NECKS 12)/i.txt",
+		"/home/martin/Desktop/Downloads/Necks_-_2015_-_Vertigo_(FLAC__ReR_NECKS_12)/Necks - 2015 - Vertigo (FLAC, ReR NECKS 12)/Vertigo.cue",
+		"/home/martin/Desktop/Downloads/Necks_-_2015_-_Vertigo_(FLAC__ReR_NECKS_12)/readme.txt",
+		"/home/martin/Downloads/wordpress/wp-config.php",
+		"/home/martin/Desktop/unrar.txt",
+		"/home/martin/Desktop/Untitled Document",
+		"/home/martin/Desktop/Documents/backhandMedia/Resa Shore/event_tracking.js",
+		"/run/user/1000/gvfs/ftp:host=ftp.backhandstories.com/backhandmedia/public_html/martin-bell/index.html",
+		"/run/user/1000/gvfs/ftp:host=ftp.backhandstories.com/backhandmedia/public_html/martin-bell/.htaccess",
+		"/home/martin/.local/share/rhythmbox/plugins/alternative-toolbar/alttoolbar_type.py",
+		"/home/martin/backhandmedia/martin-bell/index.html",
+		"/home/martin/Documents/backhandMedia/Resa Shore/Resa Notes",
+		"/home/martin/Desktop/Terms-to-Block.csv",
+		"/run/user/1000/gvfs/ftp:host=ftp.backhandstories.com/backhandmedia/public_html/martin-bell/martin-bell-resume.html",
+		"/run/user/1000/gvfs/ftp:host=ftp.backhandstories.com/backhandmedia/public_html/martin-bell/style.css",
+		"/home/martin/Desktop/stream/ars.m3u",
+		"/home/martin/backhandmedia/index.php",
+		"/home/martin/Desktop/processing-3.0.2/processing",
+		"/home/martin/Desktop/Documents/backhandMedia/backhandMediaBlog/backhand media content/stillWorking",
+		"/home/martin/Desktop/Documents/backhandMedia/backhandMediaBlog/backhand media content/backhandstoriesGoals",
+		"/home/martin/Desktop/Dropped Text.txt",
+		"/home/martin/New/Duck.Quacks.Dont.Echo.UK.S04E04.720p.HEVC.x265-MeGusta/Duck.Quacks.Dont.Echo.UK.S04E04.720p.HEVC.x265-MeGusta.nfo",
+		"/home/martin/Desktop/New/Miles Davis - Kind of Blue 50th Anniversary Collectors Edition (2008) [FLAC]/FLAC FILES - info & TUTORIAL.txt",
+		"/home/martin/Desktop/arctouch to do",
+		"/home/martin/Dropbox/podkicker_backup.opml",
+		"/home/martin/Desktop/plos to dos",
+		"/home/martin/.config/qBittorrent/qBittorrent.conf",
+		"/home/martin/Desktop/Change Goals",
+		"/home/martin/Desktop/url",
+		"/home/martin/backhandmedia/.gitignore",
+		"/home/martin/backhandmedia/mailbox/email_analysis.py",
+		"/home/martin/Safari Code/bus-int-master/hetle/README.md",
+		"/home/martin/backhandmedia/martin-bell/style.css",
+		"/home/martin/Desktop/Hi Andrew,",
+		"/home/martin/backhandmedia/martin-bell/script.js",
+		"/home/martin/Desktop/PfIhuJTH2A4i",
+		"/home/martin/backhandmedia/index (1).php",
+		"/home/martin/New/The.Night.Manager.S01E06.720p.BluRay.x264-SHORTBREHD[ettv]/Torrent-Downloaded-from-ExtraTorrent.cc.txt",
+		"/home/martin/Desktop/prog.m3u8",
+		"/home/martin/Documents/Default.rdp",
+		"/home/martin/smb.conf",
+		"/run/user/1000/gvfs/sftp:host=scholes.local/Users/martin/cube/cube/sql/data/pentaho_preprocessing/flow_fact_vendor_ads.sql",
+		"/home/martin/Desktop/Downloads/Re Slowing loading of Analyzer in BioMe demo.msg",
+		"/run/user/1000/gvfs/sftp:host=scholes.local/opt/biserver-ce/pentaho-solutions/system/common-ui/resources/web/safari/safari.js",
+		"/run/user/1000/gvfs/sftp:host=scholes.local/opt/biserver-ce/pentaho-solutions/system/common-ui/resources/web/common-ui-require-js-cfg.js",
+		"/run/user/1000/gvfs/sftp:host=scholes.local/opt/biserver-ce/pentaho-solutions/system/common-ui/plugin.xml",
+		"/run/user/1000/gvfs/sftp:host=scholes.local/opt/biserver-ce/tomcat/webapps/pentaho/mantle/Mantle.jsp",
+		"/run/user/1000/gvfs/sftp:host=scholes.local/opt/biserver-ce/tomcat/webapps/pentaho/mantle/mantle.nocache.js",
+		"/home/martin/Desktop/42522590-0008368.ics",
+		"/run/user/1000/gvfs/sftp:host=scholes.local/opt/biserver-ce/pentaho-solutions/system/common-ui/resources/web/safari/safari-ga.js",
+		"/run/user/1000/gvfs/sftp:host=scholes.local/Users/martin/workspace/lp.sql",
+		"/run/user/1000/gvfs/sftp:host=scholes.local/Users/martin/kishiko/best_of_2015/best_2015_template.html",
+		"/run/user/1000/gvfs/sftp:host=scholes.local/opt/biserver-ce/tomcat/webapps/pentaho/mantle/browser/index.jsp",
+		"/run/user/1000/gvfs/sftp:host=scholes.local/Users/martin/kishiko/content_summary/content_summary_metalayer.js",
+		"/run/user/1000/gvfs/sftp:host=scholes.local/Users/martin/cube/cube/sql/materialized_views.py",
+		"/run/user/1000/gvfs/sftp:host=scholes.local/Users/martin/cube/cube/sql/data/materialized_views/subscribers.sql",
+		"/run/user/1000/gvfs/sftp:host=scholes.local/Users/martin/Google Drive/Workspace/fn.sql",
+		"/run/user/1000/gvfs/sftp:host=scholes.local/Users/martin/Google Drive/Workspace/users.sql",
+		"/Users/mbell/Google Drive/Workspace/fn.sql",
+		"/Users/mbell/kishiko/content_summary/content_summary_template.html",
+		"/Users/martin/.bash_profile",
+		"/Users/mbell/Google Drive/Workspace/users.sql",
+		"/Users/mbell/.bash_profile",
+		"/Users/martin/.profile",
+		"/Users/mbell/cube/cube/sql/data/materialized_views/users.sql",
+		"/Users/mbell/cube/cube/sql/data/pentaho_preprocessing/flow_fact_event.sql",
+		"/Users/mbell/Google Drive/Workspace/sd.sql",
+		"/Users/mbell/Google Drive/Workspace/ak.sql",
+		"/Users/mbell/Google Drive/Workspace/ia-41.sql",
+		"/Users/martin/.pgpass",
+		"/Users/mbell/bus-int/mondrian_schemas/flowSignupSchema.xml",
+		"/Users/mbell/kishiko/account_overview/account_overview_metalayer.js",
+		"/Users/mbell/kishiko/account_overview/account_overview_data.cda",
+		"/Users/mbell/bi-portal/bi_portal/settings/dev.py",
+		"/Users/mbell/pork/corp/urls.py",
+		"/Users/mbell/Google Drive/Workspace/flowPagesMinutes.xml",
+		"/Users/mbell/cube/cube/sql/tables.py",
+		"/opt/biserver-ce/tomcat/webapps/pentaho/mantle/Mantle.jsp",
+		"/opt/biserver-ce/tomcat/webapps/pentaho/mantle/browser/index.jsp",
+		"/opt/biserver-ce/tomcat/webapps/pentaho/js/google-demo.js",
+		"/opt/biserver-ce/tomcat/webapps/pentaho/welcome/welcome.html",
+		"/opt/biserver-ce/tomcat/webapps/pentaho/index.jsp",
+		"/opt/biserver-ce/tomcat/webapps/pentaho/mantle/nativeScripts.js",
+		"/Users/mbell/Google Drive/Workspace/account_sessions.sql"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/run/user/1000/gvfs/sftp:host=scholes.local/opt/biserver-ce"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"50px",
+			"fixed",
+			"header",
+			"$",
+			"jQuery",
+			",\"\n,\"",
+			"'\"",
+			"sendToGA",
+			">",
+			"h3",
+			"[PDB-1143]",
+			"pdb-1143",
+			"require([\"",
+			"ga('send', 'pageview');",
+			"materialized_views.",
+			"original_zuora_activation_date",
+			"\"",
+			"href=\"",
+			"</span>",
+			"<span class=\"sidebar_span\"><img class=\"sidebar_logo\" src=\"/static/portal/img/logo.png\">",
+			"class=\"sidebar-links\" ",
+			"<= 7",
+			"first",
+			"lead_last_modified_date",
+			"lead_status",
+			"lead_id",
+			"count"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"jQuery",
+			"$",
+			",",
+			"",
+			"send_to_ga",
+			"",
+			"\\n",
+			"li",
+			"",
+			"cancellation_date",
+			"'",
+			"href=\"http://bi-web-01.sfo.safaribooks.com",
+			"",
+			"&lt;= ${window}",
+			"totals",
+			"close_date",
+			"sf_account_id",
+			"stage_name",
+			"sum"
+		],
+		"reverse": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 37.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "style.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 254.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

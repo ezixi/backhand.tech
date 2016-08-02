@@ -115,6 +115,11 @@ h2 {
     padding: 20px;
 }
 
+.separator {
+    padding-left: 45%;
+    font-style: italic;
+}
+
 .comments {
     border-top: 1px solid #ccc;
 }

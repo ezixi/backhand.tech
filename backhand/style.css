@@ -39,16 +39,11 @@ h2 {
 }
 
 .entry p:first-child {
-    border-top: 1px solid #ccc;
+
     padding-top: 105px;
     background: transparent url(images/mechHand.jpg) no-repeat top center;
 }
 
-#home .entry p:first-child {
-  border: none;
-  padding-top: 0;
-  background: none;
-}
 
 .entry p:first-child:first-line {
     font-variant: small-caps;
@@ -190,7 +185,7 @@ footer .social i {
     }
 
     .col-md-4 .entry {
-        min-height: 300px;
+        min-height: 400px;
         }
 
     .post h2 {

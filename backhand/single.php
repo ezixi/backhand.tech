@@ -7,7 +7,6 @@
 			<article class="post" id="post-<?php the_ID(); ?>">
 				<h2><a href="<?php echo get_permalink() ?>" rel="bookmark" title="Permanent Link: <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
 				<div class="entry">
-						<?php include (TEMPLATEPATH . "/ads.php"); ?>
 				<?php the_content('<p class="serif">Read the rest of this story &raquo;</p>'); ?>
 		<div class="in-page ad">
 						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>

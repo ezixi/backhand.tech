@@ -58,5 +58,56 @@ function tweakjp_custom_twitter_site( $og_tags ) {
 }
 add_filter( 'jetpack_open_graph_tags', 'tweakjp_custom_twitter_site', 11 );
 
+//removes anchor in article page where more link is
+function remove_more_link_scroll( $link ) {
+    $link = preg_replace( '|#more-[0-9]+|', '', $link );
+    return $link;
+}
+add_filter( 'the_content_more_link', 'remove_more_link_scroll' );
 
+
+//Insert ads after second paragraph of single post content.
+
+add_filter( 'the_content', 'prefix_insert_post_ads' );
+
+function prefix_insert_post_ads( $content ) {
+    
+    $ad_code = '<div class="content_ad">
+            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <!-- main square -->
+            <ins class="adsbygoogle"
+            style="display:block"
+            data-ad-client="ca-pub-3583480902555622"
+            data-ad-slot="9254863950"
+            data-ad-format="auto"></ins>
+            <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>';
+
+    if ( is_single() && ! is_admin() ) {
+        return prefix_insert_after_paragraph( $ad_code, 5, $content );
+    }
+    
+    return $content;
+}
+ 
+// Parent Function that makes the magic happen
+ 
+function prefix_insert_after_paragraph( $insertion, $paragraph_id, $content ) {
+    $closing_p = '</p>';
+    $paragraphs = explode( $closing_p, $content );
+    foreach ($paragraphs as $index => $paragraph) {
+
+        if ( trim( $paragraph ) ) {
+            $paragraphs[$index] .= $closing_p;
+        }
+
+        if ( $paragraph_id == $index + 1 ) {
+            $paragraphs[$index] .= $insertion;
+        }
+    }
+    
+    return implode( '', $paragraphs );
+}
  ?>

@@ -185,7 +185,8 @@ footer .social i {
     }
 
     .col-md-4 .entry {
-        min-height: 400px;
+        min-height: 500px;
+        border-bottom: 1px solid #ccc;
         }
 
     .post h2 {
@@ -195,9 +196,9 @@ footer .social i {
     }
     
      .content_ad {
-    width: 390px;
-    float:right;
-    padding: 10px;
+        width: 390px;
+        float:right;
+        padding: 10px;
  }
 
 

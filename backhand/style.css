@@ -99,10 +99,8 @@ h2 {
 
 
 .col-md-4 .entry {
-
     overflow: hidden;
     padding: 10px;
-
 }
 
 .col-md-8 {
@@ -161,9 +159,9 @@ footer .social i {
 }
 
 .ad {
-    text-align: center;
-    margin-top: 5%;
+    margin-top: 30px;
  }
+
 
 @media (min-width: 768px) { 
     .navbar-collapse {
@@ -185,7 +183,7 @@ footer .social i {
     }
 
     .col-md-4 .entry {
-        min-height: 500px;
+        min-height: 650px;
         border-bottom: 1px solid #ccc;
         }
 
@@ -198,7 +196,7 @@ footer .social i {
      .content_ad {
         width: 390px;
         float:right;
-        padding: 10px;
+       margin: 10px 0 30px 30px;
  }
 
 

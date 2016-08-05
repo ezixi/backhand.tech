@@ -74,12 +74,12 @@ function prefix_insert_post_ads( $content ) {
     
     $ad_code = '<div class="content_ad">
             <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-            <!-- main square -->
+            <!-- content_body-->
             <ins class="adsbygoogle"
             style="display:block"
             data-ad-client="ca-pub-3583480902555622"
-            data-ad-slot="9254863950"
-            data-ad-format="auto"></ins>
+            data-ad-slot="6749575955"
+            data-ad-format="rectangle, horizontal"></ins>
             <script>
             (adsbygoogle = window.adsbygoogle || []).push({});
             </script>

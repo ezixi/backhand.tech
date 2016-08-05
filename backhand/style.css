@@ -99,7 +99,7 @@ h2 {
 
 
 .col-md-4 .entry {
-    max-height: 300px;
+
     overflow: hidden;
     padding: 10px;
 
@@ -197,6 +197,7 @@ footer .social i {
      .content_ad {
     width: 390px;
     float:right;
+    padding: 10px;
  }
 
 

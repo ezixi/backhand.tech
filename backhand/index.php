@@ -5,7 +5,7 @@
 	</div>
 	<div class="row">
 		<?php if (have_posts()) : ?>
-		<?php include (TEMPLATEPATH . "/ads.php"); ?>
+		<?php $ad_name = "indexes_lead"; $slot = "9254863950"; $class = "col-md-4"; include (TEMPLATEPATH . "/ads.php"); ?>
 		<?php $firstMarked = false; ?>
 		<?php while (have_posts()) : the_post(); ?>
 		<article class="post <?php echo !$firstMarked ? "col-md-8":"col-md-4";?> " id="post-<?php the_ID(); ?>">
@@ -16,7 +16,7 @@
 		</article>
 		<?php $firstMarked = true;?>
 		<?php endwhile; ?>
-		<?php include (TEMPLATEPATH . "/ads.php"); ?>
+		<?php $ad_name = "indexes_end"; $slot = "3575783558"; $class = "col-md-4";  include (TEMPLATEPATH . "/ads.php"); ?>
 	</div>
 	<div class="row">
 		<nav class="pull-right">
@@ -35,3 +35,4 @@
 <?php endif; ?>
 </div>
 <?php get_footer(); ?>
+

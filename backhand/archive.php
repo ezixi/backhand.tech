@@ -19,7 +19,7 @@
 		<?php /* If this is a paged archive */ } elseif (isset($_GET['paged']) && !empty($_GET['paged'])) { ?>
 		<h2 class="pagetitle">Blog Archives</h2>
 		<?php } ?>
-		<?php include (TEMPLATEPATH . "/ads.php"); ?>
+		<?php $ad_name = "indexes_lead"; $slot = "9254863950"; $class = "col-md-4";  $class = "col-md-4";  include (TEMPLATEPATH . "/ads.php"); ?>
 		<?php $firstMarked = false; ?>
 		<?php while (have_posts()) : the_post(); ?>
 		<article class="post <?php echo !$firstMarked ? "col-md-8":"col-md-4";?> " id="post-<?php the_ID(); ?>">
@@ -30,18 +30,7 @@
 		</article>
 		<?php $firstMarked = true;?>
 		<?php endwhile; ?>
-		<div class="col-md-4 ad">
-			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-			<!-- main square -->
-			<ins class="adsbygoogle"
-			style="display:block"
-			data-ad-client="ca-pub-3583480902555622"
-			data-ad-slot="9254863950"
-			data-ad-format="auto"></ins>
-			<script>
-			(adsbygoogle = window.adsbygoogle || []).push({});
-			</script>
-		</div>
+		<?php $ad_name = "indexes_end"; $slot = "3575783558"; $class = "col-md-4"; include (TEMPLATEPATH . "/ads.php"); ?>
 		<?php else : ?>
 		<h2 class="center">Not Found</h2>
 		<?php include (TEMPLATEPATH . '/searchform.php'); ?>

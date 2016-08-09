@@ -18,7 +18,6 @@ body {
 h2 {
     text-align: center;
     text-transform: uppercase;
-    font-size: 1.3em;
 }
 
 .jumbotron h2 {
@@ -30,10 +29,13 @@ h2 {
 }
 
 .post h2 {
-    font-size: 0.9em;
+    font-size: 1.15em;
     overflow: hidden;
 }
 
+.entry {
+    padding: 5px;
+}
 .entry p {
     line-height: 175%;
 }
@@ -141,7 +143,7 @@ h2 {
 
 .jumbotron {
     padding: 10px;
-    box-shadow: 0px 1px 1px #ccc;
+    box-shadow: 0 1px 1px #ccc;
     border: 1px solid #ccc;
     }
 
@@ -150,7 +152,7 @@ footer {
     font-size: 80%;
     padding: 20px;
     -webkit-box-shadow: inset 0 1px 1px 0 rgba(204,12,NaN,1);
-    z-indexmoz-box-shadow: inset 0 1px 1px 0 rgba(204,12,NaN,1);
+    -moz-box-shadow: inset 0 1px 1px 0 rgba(204,12,NaN,1);
     box-shadow: inset 0 1px 1px 0 rgba(204,12,NaN,1);
 }
 
@@ -162,6 +164,9 @@ footer .social i {
     margin-top: 30px;
  }
 
+.content_ad {
+    margin: 20px;
+}
 
 @media (min-width: 768px) { 
     .navbar-collapse {
@@ -182,13 +187,9 @@ footer .social i {
         text-align: justify;
     }
 
-    .col-md-4 .entry {
-        min-height: 650px;
-        border-bottom: 1px solid #ccc;
-        }
 
     .post h2 {
-        min-height: 50px;
+        min-height: 100px;
         padding-top: 10px;
         margin-top: 30px;
     }
@@ -199,5 +200,21 @@ footer .social i {
        margin: 10px 0 30px 30px;
  }
 
+ .entry {
+    padding: 20px;
+}
+
 
 }
+
+@media (min-width: 1001px) {
+    .post h2 {
+        max-height: 100px ;
+        overflow: hidden;
+    }
+
+    .col-md-4 .entry {
+        min-height: 700px;
+        border-bottom: 1px solid #ccc;
+        }
+    }

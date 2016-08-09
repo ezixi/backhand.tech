@@ -79,7 +79,7 @@ function prefix_insert_post_ads( $content ) {
             style="display:block"
             data-ad-client="ca-pub-3583480902555622"
             data-ad-slot="6749575955"
-            data-ad-format="rectangle, horizontal"></ins>
+            data-ad-format="auto"></ins>
             <script>
             (adsbygoogle = window.adsbygoogle || []).push({});
             </script>
@@ -132,7 +132,7 @@ add_filter( 'excerpt_more', 'wpdocs_excerpt_more' );
  * @return int (Maybe) modified excerpt length.
  */
 function wpdocs_custom_excerpt_length( $length ) {
-    return 100;
+    return 120;
 }
 add_filter( 'excerpt_length', 'wpdocs_custom_excerpt_length', 999 );
 

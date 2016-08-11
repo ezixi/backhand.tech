@@ -85,6 +85,7 @@
                         <li role="presentation"><a id="nonFiction" href="<?php echo get_option('home'); ?>/non-fiction/">Non-Fiction</a></li>
                         <li role="presentation"><a id="essays" href="<?php echo get_option('home'); ?>/essays/">Essays</a></li>
                         <li role="presentation"><a id="submit" href="<?php echo get_option('home'); ?>/submission-guidelines/">Submit</a></li>
+                        <li role="presentation"><a id="submit" href="<?php echo get_option('home'); ?>/story-index/">Story Index</a></li>
                     </ul>
                     <?php include (TEMPLATEPATH . '/searchform.php'); ?>
                 </div>

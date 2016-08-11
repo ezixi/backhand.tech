@@ -9,7 +9,7 @@ Author URI: http://www.backhandmedia.com
 */
 
 body {
-    font-family: '"Adobe Caslon"',Georgia,"Times New Roman",Times,serif;
+    font-family: "Adobe Caslon",Georgia,"Times New Roman",Times,serif;
     font-size: 1.7em;
     color: #333;
     background-color: #f4f2f2;
@@ -41,7 +41,6 @@ h2 {
 }
 
 .entry p:first-child {
-
     padding-top: 105px;
     background: transparent url(images/mechHand.jpg) no-repeat top center;
 }
@@ -204,6 +203,14 @@ footer .social i {
     padding: 20px;
 }
 
+.col-md-8 .entry p:first-child {
+    padding-top: 0;
+    background: none;
+}
+
+.col-md-8 h2 {
+    min-height: 0;
+}
 
 }
 

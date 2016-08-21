@@ -5,7 +5,7 @@
             style="display:block"
             data-ad-client="ca-pub-3583480902555622"
             data-ad-slot= <?php echo "$slot"; ?>
-            data-ad-format="auto"></ins>
+            data-ad-format=<?php echo "$format"; ?>></ins>
             <script>
             (adsbygoogle = window.adsbygoogle || []).push({});
             </script>

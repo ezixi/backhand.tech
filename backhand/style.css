@@ -40,7 +40,7 @@ h2 {
     line-height: 175%;
 }
 
-.entry p:first-child {
+#home .entry p:first-child {
     padding-top: 105px;
     background: transparent url(images/mechHand.jpg) no-repeat top center;
 }
@@ -186,8 +186,7 @@ footer .social i {
         text-align: justify;
     }
 
-
-    .post h2 {
+   #home .post h2 {
         min-height: 100px;
         padding-top: 10px;
         margin-top: 30px;
@@ -197,21 +196,26 @@ footer .social i {
         width: 390px;
         float:right;
        margin: 10px 0 30px 30px;
- }
+    }
 
- .entry {
-    padding: 20px;
-}
+    .entry {
+        padding: 20px;
+    }
 
-.col-md-8 .entry p:first-child {
-    padding-top: 0;
-    background: none;
-}
+    .lead {
+        min-height: 620px;
+        padding: 0;
+        text-align: center;
+    }
 
-.col-md-8 h2 {
-    min-height: 0;
-}
+    .col-md-8 .entry p:first-child {
+        padding-top: 0;
+        background: none;
+    }
 
+    .col-md-8 h2 {
+        min-height: 0;
+    }
 }
 
 @media (min-width: 1001px) {

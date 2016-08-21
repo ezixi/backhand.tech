@@ -5,7 +5,22 @@
 	</div>
 	<div class="row">
 		<?php if (have_posts()) : ?>
-		<?php $ad_name = "indexes_lead"; $slot = "9254863950"; $class = "col-md-4 lead"; $format = 'auto'; include (TEMPLATEPATH . "/ads.php"); ?>
+		<div class="col-md-4 lead ad">
+		<style>
+		.lead_ad { width: 320px; height: 100px; }
+		@media(min-width: 768px) { .lead_ad { width: 728px; height: 90px; } }
+		@media(min-width: 1001px) { .lead_ad { width: 300px; height: 600px; } }
+		</style>
+		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		<!-- indexes_lead -->
+		<ins class="adsbygoogle lead_ad"
+		     style="display:inline-block"
+		     data-ad-client="ca-pub-3583480902555622"
+		     data-ad-slot="9254863950"></ins>
+		<script>
+		(adsbygoogle = window.adsbygoogle || []).push({});
+		</script>
+		</div>
 		<?php $firstMarked = false; ?>
 		<?php while (have_posts()) : the_post(); ?>
 		<article class="post <?php echo !$firstMarked ? "col-md-8":"col-md-4";?> " id="post-<?php the_ID(); ?>">
@@ -35,4 +50,3 @@
 <?php endif; ?>
 </div>
 <?php get_footer(); ?>
-

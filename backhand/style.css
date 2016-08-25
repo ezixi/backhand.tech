@@ -42,7 +42,7 @@ h2 {
 
 #home .entry p:first-child {
     padding-top: 105px;
-    background: transparent url(images/mechHand.jpg) no-repeat top center;
+    background: transparent url('/wp-content/themes/backhand2016/images/mechHand.jpg') no-repeat top center;
 }
 
 
@@ -96,6 +96,7 @@ h2 {
 .jp-relatedposts-post {
     background-image: none !important;
     padding-top: 10px !important;
+    font-variant: normal;
 }
 
 
@@ -159,15 +160,31 @@ footer .social i {
     margin: 20px;
 }
 
-.ad {
-    margin-top: 30px;
+
+
+ .content_ad {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 20px 0;
+    text-align: center;
  }
 
-.content_ad {
-    margin: 0 0 20px 20px;
-}
+ .content_ad p:first-child:first-line {
+    color: #999;
+    font-size: 12px;
+
+    text-transform: capitalize;
+    font-variant: normal;
+    font-weight: normal;
+ }
+
 
 @media (min-width: 768px) { 
+
+    .content_ad {
+    margin: 0 0 20px 20px;
+    }
+
     .navbar-collapse {
         padding-top: 30px;
     }
@@ -192,10 +209,10 @@ footer .social i {
         margin-top: 30px;
     }
     
-     .content_ad {
+    .content_ad {
         width: 390px;
         float:right;
-       margin: 10px 0 30px 30px;
+        margin: 10px 0 30px 30px;
     }
 
     .entry {
@@ -223,7 +240,7 @@ footer .social i {
     }
 
     .col-md-4 .entry {
-        min-height: 700px;
+        min-height: 750px;
         border-bottom: 1px solid #ccc;
         }
     }

@@ -73,6 +73,7 @@ add_filter( 'the_content', 'prefix_insert_post_ads' );
 function prefix_insert_post_ads( $content ) {
     
     $ad_code = '<div class="content_ad">
+        <p>Content continues after advertisement</p>
             <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
             <!-- content_body-->
             <ins class="adsbygoogle"

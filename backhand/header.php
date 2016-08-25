@@ -20,6 +20,7 @@
         <meta name="keywords" content="short story, creative writing, short stories, fiction, short fiction, non-fiction stories, short story blog, creative writing blog, submit a story, new writers" />
         <meta name="verify-v1" content="niXdEoBrgiaTeGk1x1dt46QiDrY8Ea112YAuZxoDSF0=" />
         <meta name="google-site-verification" content="3HE3VGpMZ2sX4X9KiglxQwY0TbNQTq9o1qZFTMIUH0E" />
+        <meta name="pocket-site-verification" content="c2b67692a0e07a64baa311fc59e2e3" />
         <meta name="y_key" content="004a99a9334081ee" >
         <meta property="fb:admins" content="618395819"/>
         <meta property="fb:app_id" content="391918975268">

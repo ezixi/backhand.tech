@@ -1,4 +1,5 @@
 <div class="<?php echo "$class"; ?> ad">
+<p>Content continues after advertisement</p>
             <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
            <?php echo "<!-- $ad_name -->"; ?>
             <ins class="adsbygoogle"

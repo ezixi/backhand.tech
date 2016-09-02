@@ -162,14 +162,14 @@ footer .social i {
 
 
 
- .content_ad {
+ .ad {
     border-top: 1px solid #ccc;
     border-bottom: 1px solid #ccc;
     padding: 20px 0;
     text-align: center;
  }
 
- .content_ad p:first-child:first-line {
+ .ad p:first-child:first-line {
     color: #999;
     font-size: 12px;
     text-transform: capitalize;

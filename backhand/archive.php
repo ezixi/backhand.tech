@@ -1,5 +1,8 @@
 <?php get_header(); ?>
 <div class="container" id="home">
+<div class="jumbotron">
+		<h2>Backhand Stories is a <strong>creative writing blog</strong> that publishes new <a href="<?php echo get_option('home'); ?>/fiction">short stories</a>, flash fiction, <a href="<?php echo get_option('home'); ?>/non-fiction">non-fiction</a> and <a href="<?php echo get_option('home'); ?>/essays">essays</a> by new and unpublished writers. <a id="submit"href="http://www.backhandstories.com/submission-guidelines/">Submit</a> your own short story!</h2>
+	</div>
 	<div class="row">
 		<?php is_tag(); ?>
 		<?php if (have_posts()) : ?>

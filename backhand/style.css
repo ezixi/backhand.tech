@@ -28,10 +28,13 @@ h2 {
     text-transform: none;
 }
 
-.post h2 {
+.post h2, .post h3 {
     font-size: 1.15em;
     overflow: hidden;
+    line-height: 48px;
+    text-align: center;
 }
+
 
 .entry {
     padding: 5px;
@@ -42,7 +45,7 @@ h2 {
 
 #home .entry p:first-child {
     padding-top: 105px;
-    background: transparent url('/wp-content/themes/backhand2016/images/mechHand.jpg') no-repeat top center;
+    background: transparent url('http://www.backhandstories.com/wp-content/themes/backhand2016/images/mechHand.jpg') no-repeat top center;
 }
 
 
@@ -160,8 +163,6 @@ footer .social i {
     margin: 20px;
 }
 
-
-
  .ad {
     border-top: 1px solid #ccc;
     border-bottom: 1px solid #ccc;
@@ -177,6 +178,26 @@ footer .social i {
     font-weight: normal;
  }
 
+.widget_mailchimpsf_widget {
+    background-color: #eee;
+
+}
+
+.widget_mailchimpsf_widget div {
+    margin-bottom: 10px;
+}
+
+.mc_email_format, .mc_var_label{
+    display:none;
+}
+
+.mc_list li {
+    display: inline;
+}
+
+#mc_subheader p {
+    padding: 15px;
+}
 
 @media (min-width: 768px) { 
 
@@ -206,6 +227,10 @@ footer .social i {
         min-height: 100px;
         padding-top: 10px;
         margin-top: 30px;
+    }
+
+    .post h2, .post h3 {
+        line-height:  normal;
     }
     
     .content_body{

@@ -24,8 +24,7 @@
 		<?php $firstMarked = false; ?>
 		<?php while (have_posts()) : the_post(); ?>
 		<article class="post <?php echo !$firstMarked ? "col-md-8":"col-md-4";?> " id="post-<?php the_ID(); ?>">
-			<h2><?php the_category(', ') ?>:</h2> 
-			<h3><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h3>
+			<h2><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
 			<div class="entry">
 				<?php the_excerpt(); ?>
 			</div>

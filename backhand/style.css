@@ -31,7 +31,7 @@ h2 {
 .post h2 {
     font-size: 1.15em;
     text-align: center;
-    line-height: 30px%;
+    line-height: 30px;
 }
 
 
@@ -47,8 +47,12 @@ h2 {
     background: transparent url('http://www.backhandstories.com/wp-content/themes/backhand2016/images/mechHand.jpg') no-repeat top center;
 }
 
-.default_image, .attachment-post-thumbnail {
+.default_image_hide {
     display:none;
+}
+
+.default_image_show {
+    margin: 10px;
 }
 
 .entry p:first-child:first-line {

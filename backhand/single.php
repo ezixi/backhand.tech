@@ -9,9 +9,9 @@
                 <div class="entry">
                     <?php
                         $post_id = get_the_ID();
-                        $thumbnail_id = 448;
+                        $thumbnail_id = 548;
                         if ( has_post_thumbnail() )
-                            the_post_thumbnail();
+                            the_post_thumbnail( 'full', array( 'class' => 'default_image_hide' ) );
                         else
                             set_post_thumbnail( $post_id, $thumbnail_id);
                     ?>

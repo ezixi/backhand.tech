@@ -16,6 +16,7 @@
     </div>
 </div>
 </footer>
+<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/scripts/scripts.js"></script>
 <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/scripts/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us1.list-manage.com","uuid":"acd03a3a5a2beadc0a29fb56a","lid":"75597ad534"}) })</script>
 </body>
 </html>

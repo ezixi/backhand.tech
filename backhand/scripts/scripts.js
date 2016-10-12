@@ -5,7 +5,7 @@ jQuery(function($){
 
     //split title into two lines
     $('article h2 a').html(function(){
-        var text = $(this).text().replace('by','<br />by');
+        var text = $(this).text().replace(/by/gi,'<br />by');
         $(this).html(text);
     });
 

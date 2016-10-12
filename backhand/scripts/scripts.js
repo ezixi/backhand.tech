@@ -1,5 +1,6 @@
-$( document ).ready( function( ) {
-    // Relocate Jetpack sharing buttons down into the comments form
+   
+jQuery(function($){
+    // Relocate Jetpack sharing buttons
     $( '#sharing' ).html( $( '.sharedaddy' ).detach() );
 
     //split title into two lines
@@ -21,5 +22,4 @@ $( document ).ready( function( ) {
             },300);
         });
     });
-
-} );
+});

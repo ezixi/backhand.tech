@@ -6,10 +6,10 @@
             
             <article class="post" id="post-<?php the_ID(); ?>">
             <div class="row title">
-                <div class="col-md-6">
+                <div class="col-md-8">
                     <h2><a href="<?php echo get_permalink() ?>" rel="bookmark" title="Permanent Link: <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
                 </div>
-                <div id="sharing" class="col-md-6"></div>
+                <div id="sharing" class="col-md-4"></div>
             </div>
                 <div class="entry">
                     <?php

@@ -31,7 +31,7 @@ h2 {
 .title {
     border-top: 1px solid #ccc;
     border-bottom: 1px solid #ccc;
-    padding: 20px;
+    padding: 10px;
     margin: 20px;
 }
 .title h2 {
@@ -39,7 +39,19 @@ h2 {
     text-align: left;
 }
 
+#sharing {
+    padding: 0 0 0 30px;
+    text-transform: uppercase;
+    color: #999;
+    font-size: 8px;
+}
+.sd-title {
+    text-align: left;
+}
 
+.sharedaddy h3.sd-title:before {
+    border-top: none !important;
+}
 .entry {
     padding: 5px;
 }
@@ -218,7 +230,7 @@ footer .social i {
     padding: 15px;
 }
 
-@media (min-width: 768px) { 
+@media (min-width: 769px) { 
 
 
     .navbar-collapse {
@@ -238,7 +250,7 @@ footer .social i {
     article {
         text-align: justify;
     }
-    .col-md-8 {
+    #home .col-md-8 {
         min-height: 750px;
     }
 
@@ -264,9 +276,21 @@ footer .social i {
 
 }
 
-@media (min-width: 1001px) {
+@media (min-width: 991px) {
 
     .col-md-4 .entry {
         min-height: 700px;
+        }
+
+   #sharing {
+    padding-top: 200px;
+    text-align: right;
+        }
+
+    .sd-sharing {
+        text-align: left;
+        }
+    .sd-content {
+
         }
     }

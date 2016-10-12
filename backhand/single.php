@@ -5,7 +5,12 @@
             <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
             
             <article class="post" id="post-<?php the_ID(); ?>">
-                <h2><a href="<?php echo get_permalink() ?>" rel="bookmark" title="Permanent Link: <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
+            <div class="row title">
+                <div class="col-md-6">
+                    <h2><a href="<?php echo get_permalink() ?>" rel="bookmark" title="Permanent Link: <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
+                </div>
+                <div id="sharing" class="col-md-6"></div>
+            </div>
                 <div class="entry">
                     <?php
                         $post_id = get_the_ID();

@@ -7,4 +7,19 @@ $( document ).ready( function( ) {
         var text = $(this).text().replace('by','<br />by');
         $(this).html(text);
     });
+
+    //analytics
+    $("a.sd-button").each(function() {
+        var href = $(this).attr('href');
+        var target = $(this).attr('target');
+        var text = $(this).attr('title');
+        $(this).click(function(event) { // when someone clicks these links
+            event.preventDefault(); // don't open the link yet
+           ga('send', 'event', 'Sharing', 'Shared', text); // create a custom event
+            setTimeout(function() { // now wait 300 milliseconds...
+                window.open(href,(!target?"_self":target)); // ...and open the link as usual
+            },300);
+        });
+    });
+
 } );

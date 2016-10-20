@@ -27,11 +27,17 @@ h1, address {
     font-weight: 700;
 }
 
+h3 {
+    font-size: 1em;
+}
 
 ul {
     list-style: none;
 }
 
+li {
+    margin: 10px;
+}
 .navbar {
     border-bottom: 1px solid #ccc;
 }
@@ -58,10 +64,6 @@ ul {
 .experience {
     padding: 10px 20px;
     background-color: #DED4B9;
-}
-
-.experience .col-md-6 ul {
-    list-style: initial;
 }
 
 .education, .award, .contact {

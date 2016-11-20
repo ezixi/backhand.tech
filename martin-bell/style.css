@@ -23,7 +23,7 @@ h1, h2, h3, h4 {
     font-family: 'Oxygen', sans-serif;
 }
 
-h1, address {
+h1 {
     font-weight: 700;
 }
 
@@ -70,6 +70,14 @@ li {
     padding: 30px;
     background-color: #46433A;
     color: #DED4B9;
+}
+
+.contact a {
+    color: #DED4B9;
+}
+
+.social {
+    margin: 0 20px 20px 0;
 }
 
 footer {

@@ -17,6 +17,7 @@ body {
     font-weight: 300;
     text-align: justify;
     line-height: 1.7;
+    font-size: 1.8em;
 }
 
 h1, h2, h3, h4 {
@@ -39,7 +40,7 @@ li {
     margin: 10px;
 }
 .navbar {
-    border-bottom: 1px solid #ccc;
+
 }
 
 .jumbotron {
@@ -60,7 +61,7 @@ li {
 }
 
 .about div:first-child {
-  border-right: 1px solid #ccc;
+    border-right: 1px solid #ccc;
 }
 
 .about img, .writing img {
@@ -74,11 +75,10 @@ li {
 
 .education, .award, .contact {
     padding: 30px;
-    color: #DED4B9;
 }
 
 .contact a {
-    color: #DED4B9;
+
 }
 
 .social {

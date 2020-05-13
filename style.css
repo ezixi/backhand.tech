@@ -43,9 +43,15 @@ li {
 }
 
 .jumbotron {
-    /*background-color: #CE534D;
-    color: #fff;*/
+    background-image: url('/images/header.jpg');
     background-color: #fff;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #666;
+    padding-top: 170px;
+    padding-bottom: -50px;
 }
 
 
@@ -63,7 +69,7 @@ li {
 
 .experience {
     padding: 10px 20px;
-    background-color: #DED4B9;
+    background-color: #fff;
 }
 
 .education, .award, .contact {
@@ -81,7 +87,7 @@ li {
 }
 
 footer {
-    background-color: #000;
+    background-color: #fff;
     color: #fff;
 }
 

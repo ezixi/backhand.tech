@@ -39,6 +39,7 @@ ul {
 li {
     margin: 10px;
 }
+
 .navbar {
 
 }
@@ -83,6 +84,10 @@ li {
 
 .social {
     margin: 0 20px 20px 0;
+}
+
+p.pull-right {
+    padding-bottom: 20px;
 }
 
 footer {

@@ -93,3 +93,6 @@ ENV/
 
 #ve
 ve/
+
+# mac
+.DS_Store

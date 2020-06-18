@@ -1,7 +1,6 @@
 
 body {
     background-color: #fff;
-    /* color: #2b8743; */
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     text-align: justify;
@@ -21,6 +20,10 @@ h1 {
     font-weight: 700;
 }
 
+h2 {
+
+}
+
 h3 {
 
 }
@@ -33,6 +36,10 @@ li {
 
 }
 
+em {
+    font-weight: 600;
+    font-style: normal;
+}
 main {
     min-height: 1500px;
 }
@@ -71,15 +78,36 @@ nav a, .dropdown-item {
     background-repeat: no-repeat;
     background-size: cover;
     color: #666;
-    padding-top: 170px;
-    padding-bottom: -50px;
+    padding: 170px 50px 50px;
 }
 
 .row {
     padding: 2em;
-
+    font-size: 80%;
 }
 
+
+.icon h2 {
+    background-color: #fff;
+    background-size: 100px 100px;
+    height: auto;
+    background-position: top;
+    background-repeat: no-repeat;
+    padding-top: 120px;
+    text-align: center;
+}
+
+#insights {
+    background-image: url('images/003-file-1.png');
+}
+
+#business_facets {
+    background-image: url('images/026-database.png');
+}
+
+#trust_data {
+    background-image: url('images/023-presentation.png');
+}
 
 #our_principles ul {
     list-style: disc;
@@ -100,6 +128,9 @@ footer a {
     color: #ccc;
 }
 
+.social {
+    padding-right: 10px;
+}
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) { ... }

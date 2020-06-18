@@ -1,7 +1,7 @@
 
 body {
     background-color: #fff;
-    color: #46433A;
+    /* color: #2b8743; */
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     text-align: justify;
@@ -12,8 +12,10 @@ body {
 .container-fluid {
     padding: 0;
 }
+
 h1, h2, h3, h4 {
     font-family: 'Roboto', sans-serif;
+
 }
 
 h1 {
@@ -21,7 +23,7 @@ h1 {
 }
 
 h3 {
-    font-size: 1em;
+
 }
 
 ul {
@@ -29,15 +31,34 @@ ul {
 }
 
 li {
-    margin: 10px;
+
 }
 
 main, nav {
    background-color: #fff;
 }
 
-.navbar {
+nav a, .dropdown-item {
+   font-weight: 700;
+   color: #666;
+}
 
+.navbar {
+    padding: 20px;
+
+}
+
+.navbar h1 a {
+    background-image: url('images/backhand_technology.png');
+    background-color: #fff;
+    padding: 50px 0 50px 120px;
+    background-position: left;
+    background-repeat: no-repeat;
+    color: #666;
+}
+
+.navbar-text, .nav-item {
+    font-size: .6em;
 }
 
 .jumbotron {
@@ -52,29 +73,40 @@ main, nav {
     padding-bottom: -50px;
 }
 
-
-
-.contact a {
+.row {
+    padding: 2em;
 
 }
 
-.social {
-    margin: 0 20px 20px 0;
+
+#our_principles ul {
+    list-style: disc;
+
 }
 
-p.pull-right {
-    padding-bottom: 20px;
-}
 
 footer {
-    background-color: #000;
-    color: #fff;
+    background-color: #222;
+    color: #ccc;
+    font-size: 66%;
 }
 
-address {
-    padding-top: 10px;
+footer h1 {
+    font-size: 100%;
+}
+footer a {
+    color: #ccc;
 }
 
-@media (max-width: 978px) {
 
-}
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }

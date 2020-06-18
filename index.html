@@ -5,7 +5,10 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Data Engineering & Analytics  - Glasgow, Scotland</title>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
         <!--<link href='https://fonts.googleapis.com/css?family=Roboto:400,700,300' rel='stylesheet' type='text/css'>-->
         <link href='https://fonts.googleapis.com/css?family=Oxygen:400,700' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="style.css">
@@ -34,46 +37,52 @@
     <body>
         <div class="container-fluid h-card">
             <nav class="navbar">
-                <p class="navbar-text"><a href="http://www.backhand.tech" rel="me home" class="u-url u-uid">Backhand Technology</a></p>
-                <p class="navbar-text">Data Analytics & Data Engineering Consultants in <span class="p-locality">Glasgow</span>, <span class="p-region">UK</span> <span class="p-postal-code">G46</span>
-                <ul class="nav nav-pills fn">
-                    <li>Services</li>
-                        <ul>
-                        	<li><a href="#data_analytics_consulting">Data Analytics Consulting</a></li>
-                            <li><a href="#tableau_data_visualisation">Tableau Data Visualisation</a></li>
-                            <li><a href="#customer_insights_web_analytics">Customer Insights and Web Analytics</a></li>
-                            <li><a href="#data_warehouse_consulting">Data Warehousing Consulting</a></li>
-                            <li><a href="#agile_data_engineering">Agile Data Engineering</a></li>
-                        </ul>
-                    <li><a href="#our_principles">Our Principles</a></li>
-                    <li><a href="about_backhand_technology.html">About Us</a></li>
-                    <li><a href="careers.html">Careers</a></li>
-                    <li><a href="pricing.html">Pricing</a></li>
+                <h1><a href="http://www.backhand.tech" rel="me home" class="navbar-brand u-url u-uid">Backhand Technology</a></h1>
+                <p class="navbar-text">Data Analytics & Data Engineering Consultants in <span class="p-locality">Glasgow</span>, <span class="p-region">UK</span> <span class="p-postal-code">G46</span></p>
+                <ul class="nav fn">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        	<a class="dropdown-item" href="#data_analytics_consulting">Data Analytics Consulting</a>
+                            <a class="dropdown-item" href="#tableau_data_visualisation">Tableau Data Visualisation</a>
+                            <a class="dropdown-item" href="#customer_insights_web_analytics">Customer Insights and Web Analytics</a>
+                            <a class="dropdown-item" href="#data_warehouse_consulting">Data Warehousing Consulting</a>
+                            <a class="dropdown-item" href="#agile_data_engineering">Agile Data Engineering</a>
+                        </div>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="about_backhand_technology.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="careers.html">Careers</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pricing.html">Pricing</a></li>
+                    <li class="nav-item"><a class="u-email nav-link" href="mailto:info@backhand.tech">Contact Us</a></
                 </ul>
-                <p><a class="u-email" href="mailto:info@backhand.tech">Contact Us</a></p>
             </nav>
             <main>
                 <div class="jumbotron">
                     <h1>Data Is Key To Making Your Business Work Better</h1>
-                    <p>Get in touch if you need help improving how you use your data.</p>
+                    <p>Get in touch if you need help improving how you use <em>your</em> data.</p>
                     <p><a class="btn btn-primary btn-lg u-email" href="mailto:info@backhand.tech">Contact Us</a></p>
                 </div>
-                <div class="row" id="data_analytics_consulting">
+                <div class="row justify-content-start" id="data_analytics_consulting">
                     <h1>Data Analytics Consulting</h1>
 
-                    <h2>Get Insights From Your Data</h2>
-                    <p>We are Data Analytics experts, and we have been adding value to our clients’ businesses by deriving insights from data for years. We use modern analytics and data engineering processes to unlock the data hidden in your systems, model it explicitly for your business, and create insights that help <em>drive your business forward</em>.</p>
+                    <div class="col-2">
+                        <h2>Get Insights From Your Data</h2>
+                        <p>We are Data Analytics experts, and we have been adding value to our clients’ businesses by deriving insights from data for years. We use modern analytics and data engineering processes to unlock the data hidden in your systems, model it explicitly for your business, and create insights that help <em>drive your business forward</em>.</p>
+                    </div>
+                    <div class="col-2">
+                        <h2>Gather Data From Every Facet Of Your Business</h2>
+                        <p>Data lives in every nook and cranny of your business. We can help you <em>consolidate every data source into a 360 view of your organisation</em>. Even the smallest businesses have many sources of data; whether it is user behavior from your website, marketing and sales intelligence from your CRM system, or financial data from your accounts team.</p>
+                    </div>
 
-                    <h2>Gather Data From Every Facet Of Your Business</h2>
-                    <p>Data lives in every nook and cranny of your business. We can help you <em>consolidate every data source into a 360 view of your organisation</em>. Even the smallest businesses have many sources of data; whether it is user behavior from your website, marketing and sales intelligence from your CRM system, or financial data from your accounts team.</p>
-
-                    <h2>Trust Your Data Sources</h2>
-                    <p>Your decisions are only as good as the information you use to make them. If data quality is not a priority in your business you run the risk of making bad ones. We ensure that your data is <em>integrated</em>, <em>modeled</em> and <em>tested</em> so that you know the KPIs you rely on to run your business are accurate and meaningful.</p>
+                    <div class="col-2">
+                        <h2>Trust Your Data Sources</h2>
+                        <p>Your decisions are only as good as the information you use to make them. If data quality is not a priority in your business you run the risk of making bad ones. We ensure that your data is <em>integrated</em>, <em>modeled</em> and <em>tested</em> so that you know the KPIs you rely on to run your business are accurate and meaningful.</p>
+                    </div>
 
                     <p><a class="btn btn-lg u-email" href="mailto:info@backhand.tech">Contact Us</a></p>
                 </div>
 
-                <div class="row" id="tableau_data_visualisation">
+                <div class="row justify-content-end" id="tableau_data_visualisation">
                     <h1>We’re Tableau Experts</h1>
 
                     <h2>Tableau Dashboarding and Reporting</h2>
@@ -90,7 +99,7 @@
                     <p><a class="btn btn-lg u-email" href="mailto:info@backhand.tech">Contact Us</a></p>
                 </div>
 
-                <div class="row" id="customer_insights_web_analytics">
+                <div class="row justify-content-start" id="customer_insights_web_analytics">
                     <h1>Learn From Your Customers</h1>
 
                     <h2>Web Analytics Implementation</h2>
@@ -102,7 +111,7 @@
                     <p><a class="btn btn-lg u-email" href="mailto:info@backhand.tech">Contact Us</a></p>
                 </div>
 
-                <div class="row" id="data_warehouse_consulting">
+                <div class="row justify-content-end" id="data_warehouse_consulting">
                     <h1>Data Warehousing Consulting</h1>
 
                     <h2>Your Data Is Valuable</h2>
@@ -118,7 +127,7 @@
                     <p><a class="btn btn-lg u-email" href="mailto:info@backhand.tech">Contact Us</a></p>
                 </div>
 
-                <div class="row" id="agile_data_engineering">
+                <div class="row justify-content-start" id="agile_data_engineering">
                     <h1>Agile Data Engineering</h1>
 
                     <h2>Discover Agile Data Development</h2>
@@ -134,7 +143,7 @@
                     <p><a class="btn btn-lg u-email" href="mailto:info@backhand.tech">Contact Us</a></p>
                 </div>
 
-                <div class="row" id="our_principles">
+                <div class="row justify-content-center" id="our_principles">
                     <h1>Our Principles</h1>
                     <p>We believe that creating real value from your business data requires dedication and discipline, and that data and analytics teams can learn much from the world of DevOps and traditional software engineering.</p>
                     <p><em>It’s no longer good enough to have the most important information about your business locked up in a laptop on an analyst’s spreadsheet.</em></p>
@@ -153,27 +162,55 @@
                 </div>
             </main>
             <footer class="container-fluid">
-                <div class="col-md-12">
-                    <h1>Services</h1>
-                    <ul>
-                        <li><a href="#data_analytics_consulting">Data Analytics Consulting</a></li>
-                        <li><a href="#customer_insights_web_analytics">Web Analytics Consulting</a></li>
-                        <li><a href="#tableau_data_visualisation">Tableau Consulting</a></li>
-                        <li><a href="#agile_data_engineering">Data Engineering Consulting</a></li>
-                        <li><a href="#data_warehouse_consulting">Data Warehousing Consulting</a></li>
-                        <li><a href="#data_warehouse_consulting">Database Consulting</a></li>
-                    </ul>
+                <div class="row">
 
-                    <a class="social" href="https://twitter.com/intent/follow?screen_name=@backhandtech" onclick="return !window.open(this.href, 'Twitter', 'width=600,height=500')" target="_blank"><i class="fa fa-3x fa-twitter"></i></a>
-                             <address><a href="mailto:info@backhand.tech">info@backhand.tech</a></address>
-                    <p>&copy; Backhand Technology Ltd.</p>
+                    <div class="col">
+                        <h1>Services</h1>
+                        <ul>
+                            <li><a href="#data_analytics_consulting">Data Analytics Consulting</a></li>
+                            <li><a href="#customer_insights_web_analytics">Web Analytics Consulting</a></li>
+                            <li><a href="#tableau_data_visualisation">Tableau Consulting</a></li>
+                            <li><a href="#agile_data_engineering">Data Engineering Consulting</a></li>
+                            <li><a href="#data_warehouse_consulting">Data Warehousing Consulting</a></li>
+                            <li><a href="#data_warehouse_consulting">Database Consulting</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col">
+                        <h1>Technologies</h1>
+                        <ul>
+                            <li><a href="#data_warehouse_consulting">PostgreSQL</a></li>
+                            <li><a href="#data_warehouse_consulting">MySQL</a></li>
+                            <li><a href="#agile_data_engineering">Python</a></li>
+                            <li><a href="#agile_data_engineering">Airflow</a></li>
+                            <li><a href="#data_warehouse_consulting">dbt</a></li>
+                            <li><a href="#agile_data_engineering">Google Big Query</a></li>
+                            <li><a href="#agile_data_engineering">AWS</a></li>
+                            <li><a href="#customer_insights_web_analytics">Google Analytics</a></li>
+                            <li><a href="#customer_insights_web_analytics">Google Tag Manager</a></li>
+                            <li><a href="#tableau_data_visualisation">Tableau Desktop</a></li>
+                            <li><a href="#tableau_data_visualisation">Tableau Server</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col">
+                        <ul>
+                            <li><a href="#our_principles">Our Principles</a></li>
+                            <li><a href="about_backhand_technology.html">About Us</a></li>
+                            <li><a href="careers.html">Careers</a></li>
+                            <li><a href="pricing.html">Pricing</a></li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <a class="social" href="https://twitter.com/intent/follow?screen_name=@backhandtech" onclick="return !window.open(this.href, 'Twitter', 'width=600,height=500')" target="_blank"><i class="fa fa-3x fa-twitter"></i></a>
+                        <address><a href="mailto:info@backhand.tech">info@backhand.tech</a></address>
+                        <p>&copy; Backhand Technology Ltd.</p>
+                    </div>
                 </div>
             </footer>
         </div>
 
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-        <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
         <script>
         window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
         ga('create', 'UA-275020-4', 'auto');
@@ -182,7 +219,7 @@
         setTimeout("ga('send', 'event', { eventCategory: '30 seconds on page', eventAction: 'Read' })", 30000);
         </script>
         <script async src='https://www.google-analytics.com/analytics.js'></script>
-        <script async src='autotrack.js'></script>
+
 
     </body>
 </html>

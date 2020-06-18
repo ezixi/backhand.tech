@@ -1,15 +1,4 @@
 
-/*
-    Colors
-    ------
-
-    Red = #CE534D
-    Dark Brown = #46433A
-    Light Brown = #DED4B9
-    Blue = #64B6B1
-
-*/
-
 body {
     background-color: #fff;
     color: #46433A;
@@ -20,6 +9,9 @@ body {
     font-size: 1.8em;
 }
 
+.container-fluid {
+    padding: 0;
+}
 h1, h2, h3, h4 {
     font-family: 'Roboto', sans-serif;
 }
@@ -40,6 +32,10 @@ li {
     margin: 10px;
 }
 
+main, nav {
+   background-color: #fff;
+}
+
 .navbar {
 
 }
@@ -57,26 +53,6 @@ li {
 }
 
 
-.about div {
-    padding: 20px 60px;
-}
-
-.about div:first-child {
-
-}
-
-.about img, .writing img {
-    padding-right: 20px;
-}
-
-.experience {
-    padding: 10px 20px;
-    background-color: #fff;
-}
-
-.education, .award, .contact {
-    padding: 30px;
-}
 
 .contact a {
 
@@ -91,7 +67,7 @@ p.pull-right {
 }
 
 footer {
-    background-color: #fff;
+    background-color: #000;
     color: #fff;
 }
 
@@ -100,7 +76,5 @@ address {
 }
 
 @media (max-width: 978px) {
-    .about div {
-        padding: 20px;
-    }
+
 }

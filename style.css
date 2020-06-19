@@ -52,15 +52,11 @@ nav a, .dropdown-item {
    color: #666;
 }
 
-.navbar p {
-    padding-left: 15px;
-
-}
 
 .navbar h1 a {
     background-image: url('images/backhand_technology.png');
     background-color: #fff;
-    padding: 50px 0 50px 120px;
+    padding: 58px 0 50px 120px;
     background-position: left;
     background-repeat: no-repeat;
     color: #666;
@@ -72,6 +68,10 @@ nav a, .dropdown-item {
 
 }
 
+.navbar-text {
+    padding: 0 50px;
+}
+
 .jumbotron {
     background-image: url('images/header.jpg');
     background-color: #fff;
@@ -80,7 +80,7 @@ nav a, .dropdown-item {
     background-repeat: no-repeat;
     background-size: cover;
     color: #666;
-    padding: 170px 50px 50px;
+    padding: 300px 50px 50px;
 }
 
 .row {
@@ -105,6 +105,10 @@ nav a, .dropdown-item {
     background-repeat: no-repeat;
     padding-top: 130px;
     text-align: center;
+}
+
+.icon p {
+    margin-bottom: 50px;
 }
 
 .hero {
@@ -141,6 +145,8 @@ nav a, .dropdown-item {
 }
 
 
+
+
 footer {
     background-color: #222;
     color: #ccc;
@@ -162,10 +168,20 @@ footer a {
 @media (min-width: 576px) { ... }
 
 // Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
+@media (min-width: 768px) {
+
+
+}
 
 // Large devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
+@media (min-width: 992px) {
+    .jumbotron {
+        padding-top: 0;
+    }
+
+}
 
 // Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }
+@media (min-width: 1200px) {
+
+}

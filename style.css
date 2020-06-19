@@ -140,11 +140,19 @@ nav a, .dropdown-item {
 }
 
 #our_principles ul {
+    padding: 50px;
+    background-color: #eee;
     list-style: disc;
-
 }
 
+#our_principles li {
+    line-height: 250%;
+    font-weight: 200;
+}
 
+#our_principles li em {
+    font-weight: 500;
+}
 
 
 footer {

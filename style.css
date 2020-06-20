@@ -5,7 +5,6 @@ body {
     font-weight: 300;
     text-align: justify;
     line-height: 1.7;
-    font-size: 1.6em;
 }
 
 .container-fluid {
@@ -36,6 +35,10 @@ li {
 
 }
 
+main p {
+    font-size: 1.2em;
+}
+
 em {
     font-weight: 600;
     font-style: normal;
@@ -64,7 +67,7 @@ nav a, .dropdown-item {
 }
 
 .navbar-text, .nav-item {
-    font-size: .7em;
+
 
 }
 
@@ -85,7 +88,6 @@ nav a, .dropdown-item {
 
 .row {
     padding: 2em;
-    font-size: 80%;
 }
 
 .stack h2 {
@@ -111,9 +113,6 @@ nav a, .dropdown-item {
     margin-bottom: 50px;
 }
 
-.hero {
-    margin-top: -100px;
-}
 
 #insights {
     background-image: url('images/003-file-1.png');
@@ -156,18 +155,18 @@ nav a, .dropdown-item {
 }
 
 
-#martin_image {
+.hero {
     margin-bottom: 20px;
 }
 
 footer {
     background-color: #222;
     color: #ccc;
-    font-size: 66%;
 }
 
 footer h1 {
     font-size: 100%;
+
 }
 footer a {
     color: #ccc;

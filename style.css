@@ -140,18 +140,19 @@ nav a, .dropdown-item {
 }
 
 #our_principles ul {
+    list-style: disc;
+    list-style-position: outside;
 }
 
 #our_principles li {
-    text-align: center;
-    padding: 20px;
-    background-color: #eee;
-    font-size: 1.4em;
+    text-align: justify;
+    margin: 20px;
+    font-size: 1.3em;
     color: #333;
 }
 
 #our_principles li em {
-    font-weight: 200;
+    font-weight: 500;
 }
 
 
@@ -172,24 +173,3 @@ footer a {
     padding-right: 10px;
 }
 
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) { ... }
-
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) {
-
-
-}
-
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) {
-    .jumbotron {
-        padding-top: 0;
-    }
-
-}
-
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) {
-
-}

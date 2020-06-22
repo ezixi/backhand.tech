@@ -172,6 +172,10 @@ footer a {
     color: #ccc;
 }
 
+footer li {
+    text-align: left;
+}
+
 .social {
     padding-right: 10px;
 }

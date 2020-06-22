@@ -83,7 +83,8 @@ nav a, .dropdown-item {
     background-repeat: no-repeat;
     background-size: cover;
     color: #666;
-    padding: 300px 50px 50px;
+    padding-left: 50px;
+    padding-bottom: 50px;
 }
 
 .row {

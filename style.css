@@ -81,13 +81,17 @@ nav a, .dropdown-item {
     background-image: url('images/header.jpg');
     background-color: #fff;
     height: auto;
-    background-position: center;
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     color: #666;
     padding-left: 50px;
     padding-bottom: 50px;
     padding-top: 200px;
+}
+
+.jumbotron h1 {
+    text-align: left;
 }
 
 .row {

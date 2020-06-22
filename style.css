@@ -81,7 +81,7 @@ nav a, .dropdown-item {
     background-image: url('images/header.jpg');
     background-color: #fff;
     height: auto;
-    background-position: center center;
+    background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
     color: #666;
@@ -191,6 +191,7 @@ footer li {
 @media (min-width: 768px) {
     .jumbotron {
         padding-top: 300px;
+        background-position: center center;
         }
 
     h2 {

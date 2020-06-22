@@ -1,35 +1,30 @@
 
-/*
-    Colors
-    ------
-
-    Red = #CE534D
-    Dark Brown = #46433A
-    Light Brown = #DED4B9
-    Blue = #64B6B1
-
-*/
-
 body {
     background-color: #fff;
-    color: #46433A;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     text-align: justify;
     line-height: 1.7;
-    font-size: 1.8em;
+}
+
+.container-fluid {
+    padding: 0;
 }
 
 h1, h2, h3, h4 {
-    font-family: 'Oxygen', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 h1 {
     font-weight: 700;
 }
 
+h2 {
+
+}
+
 h3 {
-    font-size: 1em;
+
 }
 
 ul {
@@ -37,70 +32,151 @@ ul {
 }
 
 li {
-    margin: 10px;
+
 }
 
-.navbar {
+main p {
+    font-size: 1.2em;
+}
 
+em {
+    font-weight: 600;
+    font-style: normal;
+}
+main {
+    min-height: 1500px;
+}
+main, nav {
+   background-color: #fff;
+}
+
+nav a, .dropdown-item {
+   font-weight: 700;
+   color: #666;
+}
+
+
+.navbar h1 a {
+    background-image: url('images/backhand_technology.png');
+    background-color: #fff;
+    padding: 58px 0 50px 120px;
+    background-position: left;
+    background-repeat: no-repeat;
+    color: #666;
+
+}
+
+.navbar-text, .nav-item {
+
+
+}
+
+.navbar-text {
+    padding: 0 50px;
 }
 
 .jumbotron {
-    background-image: url('/images/header.jpg');
+    background-image: url('images/header.jpg');
     background-color: #fff;
     height: auto;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     color: #666;
-    padding-top: 170px;
-    padding-bottom: -50px;
+    padding: 300px 50px 50px;
+}
+
+.row {
+    padding: 2em;
+}
+
+.stack h2 {
+    margin-top: 50px;
+}
+
+.stack h2:first-of-type {
+    margin-top: 0;
 }
 
 
-.about div {
-    padding: 20px 60px;
-}
-
-.about div:first-child {
-
-}
-
-.about img, .writing img {
-    padding-right: 20px;
-}
-
-.experience {
-    padding: 10px 20px;
+.icon h2 {
     background-color: #fff;
+    background-size: 100px 100px;
+    height: auto;
+    background-position: top;
+    background-repeat: no-repeat;
+    padding-top: 130px;
+    text-align: center;
 }
 
-.education, .award, .contact {
-    padding: 30px;
+.icon p {
+    margin-bottom: 50px;
 }
 
-.contact a {
 
+#insights {
+    background-image: url('images/003-file-1.png');
 }
 
-.social {
-    margin: 0 20px 20px 0;
+#business_facets {
+    background-image: url('images/026-database.png');
 }
 
-p.pull-right {
-    padding-bottom: 20px;
+#trust_data {
+    background-image: url('images/023-presentation.png');
+}
+
+#analytics_engineering {
+    background-image: url('images/016-sharing-archives-1.png');
+}
+
+#data_warehouses {
+    background-image: url('images/011-folder-2.png');
+}
+
+#valuable_data {
+    background-image: url('images/008-profits.png');
+}
+
+#our_principles ul {
+    list-style: disc;
+    list-style-position: outside;
+}
+
+#our_principles li {
+    text-align: justify;
+    margin: 20px;
+    font-size: 1.3em;
+    color: #333;
+}
+
+#our_principles li em {
+    font-weight: 500;
+}
+
+
+.hero {
+    margin-bottom: 50px;
 }
 
 footer {
-    background-color: #fff;
-    color: #fff;
+    background-color: #222;
+    color: #ccc;
 }
 
-address {
-    padding-top: 10px;
+footer h1 {
+    font-size: 100%;
+
+}
+footer a {
+    color: #ccc;
 }
 
-@media (max-width: 978px) {
-    .about div {
-        padding: 20px;
-    }
+footer li {
+    text-align: left;
 }
+
+.social {
+    padding-right: 10px;
+}
+

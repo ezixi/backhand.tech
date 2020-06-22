@@ -17,9 +17,11 @@ h1, h2, h3, h4 {
 
 h1 {
     font-weight: 700;
+    text-align: center;
 }
 
 h2 {
+    text-align: center;
 
 }
 
@@ -85,6 +87,7 @@ nav a, .dropdown-item {
     color: #666;
     padding-left: 50px;
     padding-bottom: 50px;
+    padding-top: 200px;
 }
 
 .row {
@@ -179,5 +182,16 @@ footer li {
 
 .social {
     padding-right: 10px;
+}
+
+@media (min-width: 768px) {
+    .jumbotron {
+        padding-top: 300px;
+        }
+
+    h2 {
+        text-align: left;
+    }
+
 }
 

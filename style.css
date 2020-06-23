@@ -57,6 +57,9 @@ nav a, .dropdown-item {
    color: #666;
 }
 
+nav a.active {
+    color: #FD7E12;
+}
 
 .navbar h1 a {
     background-image: url('images/backhand_technology.png');

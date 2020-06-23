@@ -88,7 +88,7 @@ nav a.active {
     background-repeat: no-repeat;
     background-size: cover;
     color: #666;
-    padding-left: 50px;
+    padding-left: 20px;
     padding-bottom: 50px;
     padding-top: 200px;
 }
@@ -195,6 +195,7 @@ footer li {
 @media (min-width: 768px) {
     .jumbotron {
         padding-top: 300px;
+        padding-left: 50px;
         background-position: center center;
         }
 

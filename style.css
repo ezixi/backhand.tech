@@ -90,8 +90,8 @@ nav a, .dropdown-item {
     padding-top: 200px;
 }
 
-.jumbotron h1 {
-    text-align: left;
+.jumbotron p {
+    text-align: center;
 }
 
 .row {
@@ -195,7 +195,7 @@ footer li {
         background-position: center center;
         }
 
-    h2 {
+    .jumbotron h1, h2, .jumbotron p {
         text-align: left;
     }
 

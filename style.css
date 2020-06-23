@@ -68,7 +68,6 @@ nav a.active {
     background-position: left;
     background-repeat: no-repeat;
     color: #666;
-
 }
 
 .navbar-text, .nav-item {
@@ -81,12 +80,12 @@ nav a.active {
 }
 
 .jumbotron {
-    background-image: url('images/header.jpg');
+    background-image: url('images/header_small.jpg');
     background-color: #fff;
     height: auto;
     background-position: left bottom;
     background-repeat: no-repeat;
-    background-size: cover;
+
     color: #666;
     padding-left: 20px;
     padding-bottom: 50px;
@@ -194,9 +193,11 @@ footer li {
 
 @media (min-width: 768px) {
     .jumbotron {
+        background-image: url('images/header.jpg');
         padding-top: 300px;
         padding-left: 50px;
         background-position: center center;
+        background-size: cover;
         }
 
     .jumbotron h1, h2, .jumbotron p {

@@ -84,7 +84,7 @@ nav a.active {
     background-image: url('images/header.jpg');
     background-color: #fff;
     height: auto;
-    background-position: center bottom;
+    background-position: left bottom;
     background-repeat: no-repeat;
     background-size: cover;
     color: #666;

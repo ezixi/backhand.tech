@@ -191,6 +191,11 @@ footer li {
     padding-right: 10px;
 }
 
+
+.blog_content {
+    padding: 0 10%;
+}
+
 @media (min-width: 768px) {
     .jumbotron {
         background-image: url('images/header.jpg');
@@ -203,5 +208,8 @@ footer li {
         text-align: left;
     }
 
+    .blog_content {
+        padding: 0 25%;
+    }
 }
 

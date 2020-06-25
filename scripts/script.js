@@ -1,7 +1,3 @@
 $( document ).ready(function() {
-    $('a').attr({
-        'data-event-category': 'External',
-        'data-event-action': 'Click'
-            }
-        );    
+    $( ".blog_content img" ).addClass( "img-fluid" );
 });

@@ -60,15 +60,20 @@
                 }
         }
         </script>
-        <script src="https://use.fontawesome.com/73f45f37af.js" type="text/plain"></script>
+        <script src="https://use.fontawesome.com/73f45f37af.js" type="text/javascript" ></script>
         <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-275020-4"></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-275020-4" type="text/javascript" ></script>
         <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+            var _hsq = window._hsq = window._hsq || [];
+            _hsq.push(['addPrivacyConsentListener', function (consent) {
+                if (consent.allowed) {
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag(){dataLayer.push(arguments);}
+                    gtag('js', new Date());
+                    gtag('config', 'UA-275020-4');
+                }
+            }]);
 
-          gtag('config', 'UA-275020-4');
         </script>
     </head>
     <body>
@@ -310,7 +315,7 @@
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
         <!-- Start of HubSpot Embed Code -->
-        <script type="text/plain" id="hs-script-loader" async defer src="//js.hs-scripts.com/7937413.js"></script>
+        <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/7937413.js"></script>
         <!-- End of HubSpot Embed Code -->
     </body>
 </html>

@@ -191,6 +191,9 @@ footer li {
     padding-right: 10px;
 }
 
+.blog_content h1 {
+    padding-bottom: 30px;
+}
 
 @media (min-width: 768px) {
     .jumbotron {

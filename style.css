@@ -156,6 +156,22 @@ nav a.active {
   font-weight: 500;
 }
 
+#our_customers blockquote{
+  text-align: center;
+  margin: 80px;
+}
+
+#our_customers blockquote p em {
+  font-weight: 200;
+  font-style: italic;
+  font-size: 1.4em;
+}
+
+#our_customers blockquote small {
+  text-align: right;
+  color: #999;
+}
+
 .hero {
   margin-bottom: 50px;
 }

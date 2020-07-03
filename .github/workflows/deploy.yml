@@ -17,7 +17,6 @@ jobs:
           VALIDATE_ALL_CODEBASE: false
 
   release:
-    if: ${{ github.ref == 'master' }}
     needs: build
 
     runs-on: ubuntu-latest

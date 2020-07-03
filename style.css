@@ -1,231 +1,204 @@
 
 body {
-    background-color: #fff;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    text-align: justify;
-    line-height: 1.7;
+  background-color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  text-align: justify;
+  line-height: 1.7;
 }
 
 .container-fluid {
-    padding: 0;
+  padding: 0;
 }
 
-h1, h2, h3, h4 {
-    font-family: 'Roboto', sans-serif;
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Roboto', sans-serif;
 }
 
 h1 {
-    font-weight: 700;
-    text-align: center;
+  font-weight: 700;
+  text-align: center;
 }
 
 h2 {
-    text-align: center;
-
-}
-
-h3 {
-
+  text-align: center;
 }
 
 ul {
-    list-style: none;
-}
-
-li {
-
+  list-style: none;
 }
 
 main p {
-    font-size: 1.2em;
+  font-size: 1.2em;
 }
 
 em {
-    font-weight: 600;
-    font-style: normal;
-}
-main {
-    min-height: 1500px;
-}
-main, nav {
-   background-color: #fff;
+  font-weight: 600;
+  font-style: normal;
 }
 
-nav a, .dropdown-item {
-   font-weight: 700;
-   color: #666;
+main {
+  min-height: 1500px;
+}
+
+main,
+nav {
+  background-color: #fff;
+}
+
+nav a,
+.dropdown-item {
+  font-weight: 700;
+  color: #666;
 }
 
 nav a.active {
-    color: #FD7E12;
+  color: #fd7e12;
 }
 
 .navbar h1 a {
-    background-image: url('images/backhand_technology.png');
-    background-color: #fff;
-    padding: 58px 0 50px 120px;
-    background-position: left;
-    background-repeat: no-repeat;
-    color: #666;
-}
-
-.navbar-text, .nav-item {
-
-
+  background-image: url('images/backhand_technology.png');
+  background-color: #fff;
+  padding: 58px 0 50px 120px;
+  background-position: left;
+  background-repeat: no-repeat;
+  color: #666;
 }
 
 .navbar-text {
-    padding: 0 50px;
+  padding: 0 50px;
 }
 
 .jumbotron {
-    background-image: url('images/header_small.jpg');
-    background-color: #fff;
-    height: auto;
-    background-position: left top;
-    background-repeat: no-repeat;
-    color: #666;
-    padding-left: 20px;
-    padding-bottom: 50px;
-    padding-top: 250px;
-    background-size: cover;
+  background-image: url('images/header_small.jpg');
+  background-color: #fff;
+  height: auto;
+  background-position: left top;
+  background-repeat: no-repeat;
+  color: #666;
+  padding-left: 20px;
+  padding-bottom: 50px;
+  padding-top: 250px;
+  background-size: cover;
 }
 
 .jumbotron p {
-    text-align: center;
+  text-align: center;
 }
 
 .row {
-    padding: 2em;
+  padding: 2em;
 }
 
 .stack h2 {
-    margin-top: 50px;
+  margin-top: 50px;
+}
+
+.icon h2 {
+  background-color: #fff;
+  background-size: 100px 100px;
+  height: auto;
+  background-position: top;
+  background-repeat: no-repeat;
+  padding-top: 130px;
+  text-align: center;
 }
 
 .stack h2:first-of-type {
-    margin-top: 0;
-}
-
-
-.icon h2 {
-    background-color: #fff;
-    background-size: 100px 100px;
-    height: auto;
-    background-position: top;
-    background-repeat: no-repeat;
-    padding-top: 130px;
-    text-align: center;
+  margin-top: 0;
 }
 
 .icon p {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
-
 #insights {
-    background-image: url('images/003-file-1.png');
+  background-image: url('images/003-file-1.png');
 }
 
 #business_facets {
-    background-image: url('images/026-database.png');
+  background-image: url('images/026-database.png');
 }
 
 #trust_data {
-    background-image: url('images/023-presentation.png');
+  background-image: url('images/023-presentation.png');
 }
 
 #analytics_engineering {
-    background-image: url('images/016-sharing-archives-1.png');
+  background-image: url('images/016-sharing-archives-1.png');
 }
 
 #data_warehouses {
-    background-image: url('images/011-folder-2.png');
+  background-image: url('images/011-folder-2.png');
 }
 
 #valuable_data {
-    background-image: url('images/008-profits.png');
+  background-image: url('images/008-profits.png');
 }
 
 #our_principles ul {
-    list-style: disc;
-    list-style-position: outside;
+  list-style: disc;
+  list-style-position: outside;
 }
 
 #our_principles li {
-    text-align: justify;
-    margin: 20px;
-    font-size: 1.3em;
-    color: #333;
+  text-align: justify;
+  margin: 20px;
+  font-size: 1.3em;
+  color: #333;
 }
 
 #our_principles li em {
-    font-weight: 500;
-}
-
-
-#our_customers blockquote{
-    text-align: center;
-    margin: 80px;
-
-}
-
-#our_customers blockquote p em {
-    font-weight: 200;
-    font-style: italic;
-    font-size: 1.4em;
-}
-
-#our_customers blockquote small {
-    text-align: right;
-    color: #999;
+  font-weight: 500;
 }
 
 .hero {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 footer {
-    background-color: #222;
-    color: #ccc;
+  background-color: #222;
+  color: #ccc;
 }
 
 footer h1 {
-    font-size: 100%;
-    text-align: left;
-
+  font-size: 100%;
+  text-align: left;
 }
+
 footer a {
-    color: #ccc;
+  color: #ccc;
 }
 
 footer li {
-    text-align: left;
+  text-align: left;
 }
 
 .social {
-    padding-right: 10px;
+  padding-right: 10px;
 }
 
 .blog_content h1 {
-    padding-bottom: 30px;
+  padding-bottom: 30px;
 }
 
 @media (min-width: 768px) {
-    .jumbotron {
-        background-image: url('images/header.jpg');
-        padding-top: 300px;
-        padding-left: 50px;
-        background-position: center center;
-        }
-
-    .jumbotron h1, h2, .jumbotron p {
-        text-align: left;
+  .jumbotron {
+    background-image: url('images/header.jpg');
+    padding-top: 300px;
+    padding-left: 50px;
+    background-position: center center;
     }
 
-    .blog_content {
-        padding: 0 25%;
-    }
+  .jumbotron h1, h2, .jumbotron p {
+    text-align: left;
+  }
+
+  .blog_content {
+    padding: 0 25%;
+  }
 }
 

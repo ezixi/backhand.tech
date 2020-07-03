@@ -11,6 +11,7 @@ body {
   padding: 0;
 }
 
+
 h1,
 h2,
 h3,
@@ -43,6 +44,7 @@ em {
 main {
   min-height: 1500px;
 }
+
 
 main,
 nav {

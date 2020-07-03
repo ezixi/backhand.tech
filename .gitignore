@@ -96,3 +96,6 @@ ve/
 
 # mac
 .DS_Store
+
+# node for linters
+node_modules/

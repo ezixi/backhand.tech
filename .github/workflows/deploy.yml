@@ -1,0 +1,45 @@
+name: Deploy
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Super-Linter
+      uses: docker://github/super-linter:v3
+      env:
+          VALIDATE_ALL_CODEBASE: false
+
+  release:
+    if: ${{ github.ref == 'master' }}
+    needs: build
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Deploy to server
+      id: deploy
+      uses: Pendect/action-rsyncer@v1.1.0
+      env:
+        DEPLOY_KEY: ${{secrets.DEPLOY_KEY}}
+      with:
+        flags: '-avzr'
+        options: ''
+        ssh_options: '-p 2222'
+        src: '/'
+        dest: ${{secrets.DEPLOY_HOST}}
+
+    - name: Display status from deploy
+      run: echo "${{ steps.deploy.outputs.status }}"
+
+
+

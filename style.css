@@ -10,7 +10,6 @@ body {
   padding: 0;
 }
 
-
 h1,
 h2,
 h3,
@@ -44,7 +43,6 @@ main {
   min-height: 1500px;
 }
 
-
 main,
 nav {
   background-color: #fff;
@@ -60,13 +58,31 @@ nav a.active {
   color: #fd7e12;
 }
 
-.navbar h1 a {
+nav h1 a {
   background-image: url('images/backhand_technology.png');
   background-color: #fff;
   padding: 58px 0 50px 120px;
   background-position: left;
   background-repeat: no-repeat;
   color: #666;
+}
+
+footer {
+  background-color: #222;
+  color: #ccc;
+}
+
+footer h1 {
+  font-size: 100%;
+  text-align: left;
+}
+
+footer a {
+  color: #ccc;
+}
+
+footer li {
+  text-align: left;
 }
 
 .navbar-text {
@@ -156,7 +172,7 @@ nav a.active {
   font-weight: 500;
 }
 
-#our_customers blockquote{
+#our_customers blockquote {
   text-align: center;
   margin: 80px;
 }
@@ -174,24 +190,6 @@ nav a.active {
 
 .hero {
   margin-bottom: 50px;
-}
-
-footer {
-  background-color: #222;
-  color: #ccc;
-}
-
-footer h1 {
-  font-size: 100%;
-  text-align: left;
-}
-
-footer a {
-  color: #ccc;
-}
-
-footer li {
-  text-align: left;
 }
 
 .social {
@@ -213,8 +211,8 @@ footer li {
   .jumbotron h1, h2, .jumbotron p {
     text-align: left;
   }
-
 }
+
 @media (min-width: 1200px) {
   .blog_content {
     padding: 0 25%;

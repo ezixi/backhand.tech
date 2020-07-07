@@ -218,9 +218,15 @@ footer li {
   font-weight: 600;
 }
 
-.blog_content p:first-child:first-letter {
-  font-variant: small-caps;
+.blog_content p:first-of-type:first-letter {
+  font-size: 4.1rem;
   font-weight: bold;
+  float: left;
+  text-transform: uppercase;
+  padding: -20px 10px -30px 0;
+  margin: -20px 10px -30px 0;
+  color: #fd7e12;
+  vertical-align: top;
 }
 
 .blog_content em {

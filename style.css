@@ -76,7 +76,7 @@ footer li {
   text-align: left;
 }
 
-.navbar-brand h1 a {
+.navbar-brand {
   background-image: url('images/backhand_technology.png');
   background-color: #fff;
   padding: 58px 0 50px 120px;

@@ -214,6 +214,8 @@ footer li {
     text-align: left;
   }
 
+}
+@media (min-width: 1200px) {
   .blog_content {
     padding: 0 25%;
   }

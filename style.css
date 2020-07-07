@@ -196,8 +196,37 @@ nav h1 a {
   padding-right: 10px;
 }
 
+.blog_content {
+  padding: 0 10%;
+}
+
 .blog_content h1 {
-  padding-bottom: 30px;
+  padding-bottom: 50px;
+  padding-top: 30px;
+}
+
+.blog_content h2 {
+  font-size: 130%;
+  padding-top: 20px;
+  font-weight: 600;
+  color: #fd7e12;
+}
+
+.blog_content p:first-child:first-letter {
+  font-variant: small-caps;
+  font-weight: bold;
+}
+
+.blog_content em {
+  font-weight: normal;
+  font-style: italic;
+}
+
+.subnav h3,
+.subnav h4 {
+  padding-top: 30px;
+  font-color: #ccc;
+  font-size: 100%;
 }
 
 @media (min-width: 768px) {
@@ -210,13 +239,14 @@ nav h1 a {
 
   .jumbotron h1,
   .jumbotron h2,
-  .jumbotron p {
+  .jumbotron p,
+  .blog_content h2 {
     text-align: left;
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1700px) {
   .blog_content {
-    padding: 0 25%;
+    padding: 0 10%;
   }
 }

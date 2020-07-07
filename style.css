@@ -58,15 +58,6 @@ nav a.active {
   color: #fd7e12;
 }
 
-nav h1 a {
-  background-image: url('images/backhand_technology.png');
-  background-color: #fff;
-  padding: 58px 0 50px 120px;
-  background-position: left;
-  background-repeat: no-repeat;
-  color: #666;
-}
-
 footer {
   background-color: #222;
   color: #ccc;
@@ -83,6 +74,15 @@ footer a {
 
 footer li {
   text-align: left;
+}
+
+nav h1 a {
+  background-image: url('images/backhand_technology.png');
+  background-color: #fff;
+  padding: 58px 0 50px 120px;
+  background-position: left;
+  background-repeat: no-repeat;
+  color: #666;
 }
 
 .navbar-text {
@@ -206,9 +206,11 @@ footer li {
     padding-top: 300px;
     padding-left: 50px;
     background-position: center center;
-    }
+  }
 
-  .jumbotron h1, h2, .jumbotron p {
+  .jumbotron h1,
+  .jumbotron h2,
+  .jumbotron p {
     text-align: left;
   }
 }
@@ -218,4 +220,3 @@ footer li {
     padding: 0 25%;
   }
 }
-

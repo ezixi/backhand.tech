@@ -55,7 +55,7 @@ nav a,
 }
 
 nav a.active {
-  color: #fd7e12;
+  color: #ffa64d;
 }
 
 footer {
@@ -209,14 +209,14 @@ footer li {
   font-size: 130%;
   padding-top: 20px;
   font-weight: 600;
-  color: #fd7e12;
+  color: #ffa64d;
 }
 
 .blog_content h3 {
   font-size: 130%;
   padding-top: 20px;
   font-weight: 600;
-  color: #fd7e12;
+  color: #ffa64d;
 }
 
 .blog_content p:first-of-type:first-letter {
@@ -226,7 +226,7 @@ footer li {
   text-transform: uppercase;
   padding: -20px 10px -30px 0;
   margin: -20px 10px -30px 0;
-  color: #fd7e12;
+  color: #ffa64d;
   vertical-align: top;
 }
 

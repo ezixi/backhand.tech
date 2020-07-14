@@ -4,9 +4,13 @@ env:
   jquery: true
 globals:
   gtag: readonly
+  Atomics: readonly
+  SharedArrayBuffer: readonly
 extends:
   - standard
 parserOptions:
-  ecmaVersion: 11
+  ecmaVersion: 2018
   sourceType: module
+plugins:
+  - '@typescript-eslint'
 rules: {}

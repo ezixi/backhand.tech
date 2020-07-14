@@ -1,0 +1,16 @@
+env:
+  browser: true
+  es2020: true
+  jquery: true
+globals:
+  gtag: readonly
+  Atomics: readonly
+  SharedArrayBuffer: readonly
+extends:
+  - standard
+parserOptions:
+  ecmaVersion: 2018
+  sourceType: module
+plugins:
+  - '@typescript-eslint'
+rules: {}

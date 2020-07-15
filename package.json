@@ -1,7 +1,7 @@
 {
   "name": "backhand.tech",
   "version": "1.0.0",
-  "description": "",
+  "description": "Linters and misc files for production of backhand.tech website.",
   "main": "index.js",
   "dependencies": {
     "postcss": "^7.0.32",
@@ -24,7 +24,7 @@
     "url": "git+https://github.com/ezixi/backhandmedia.git"
   },
   "author": "",
-  "license": "ISC",
+  "license": "GPL-3.0-only",
   "bugs": {
     "url": "https://github.com/ezixi/backhandmedia/issues"
   },

@@ -219,20 +219,26 @@ footer li {
   color: #6c7f13;
 }
 
-.blog_content p:first-of-type:first-letter {
-  font-size: 4.1rem;
-  font-weight: bold;
-  float: left;
-  text-transform: uppercase;
-  padding: -20px 10px -30px 0;
-  margin: -20px 10px -30px 0;
-  color: #6c7f13;
-  vertical-align: top;
-}
-
 .blog_content em {
   font-weight: normal;
   font-style: italic;
+}
+
+.blog_content blockquote {
+  margin: 1.5em 50px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+  color: #888;
+  font-size: 120%
+}
+
+.blog_content blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
 }
 
 .subnav h3,

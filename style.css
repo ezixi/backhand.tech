@@ -248,6 +248,15 @@ footer li {
   font-size: 100%;
 }
 
+.subnav li {
+  list-style: " - ";
+  padding-bottom: 10px;
+}
+
+.subnav li a {
+  color: #666
+}
+
 @media (min-width: 768px) {
   .jumbotron {
     background-image: url('images/header.jpg');
@@ -267,5 +276,13 @@ footer li {
 @media (min-width: 1700px) {
   .blog_content {
     padding: 0 10%;
+  }
+
+  .blog_content p {
+    font-size: 1.5em;
+  }
+
+  .blog_content h2 {
+    font-size: 1.6em;
   }
 }

@@ -1,20 +1,2 @@
 /* eslint-disable */
-$(document).ready(function () {
-  $('.blog_content img').addClass('img-fluid rounded mx-auto')
-  $('.blog_content h1').addClass('display-4')
-
-  // analytics
-  $('a').each(function () {
-    var href = $(this).attr('href')
-    var target = $(this).attr('target')
-    var text = $(this).text()
-    var eventName = $(this).hasClass('btn') ? 'generate_lead' : 'select_content'
-    $(this).click(function (event) { // when someone clicks these links
-      event.preventDefault() // don't open the link yet
-      gtag('event', eventName, { event_label: text }) // create a custom event
-      setTimeout(function () { // now wait 300 milliseconds...
-        window.open(href, (!target ? '_self' : target)) // ...and open the link as usual
-      }, 300)
-    })
-  })
-})
+$(document).ready(function(){$(".blog_content img").addClass("img-fluid rounded mx-auto"),$(".blog_content h1").addClass("display-4"),$("a").each(function(){var t=$(this).attr("href"),e=$(this).attr("target"),n=$(this).text(),a=$(this).hasClass("btn")?"generate_lead":"select_content";$(this).click(function(i){i.preventDefault(),gtag("event",a,{event_label:n}),setTimeout(function(){window.open(t,e||"_self")},300)})})});

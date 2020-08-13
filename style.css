@@ -239,6 +239,12 @@ footer li {
   vertical-align: -0.4em;
 }
 
+.blog_content ul li {
+  list-style: disc;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
 .subnav h3 {
   font-size: 1.4em;
 }

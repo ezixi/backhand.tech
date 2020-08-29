@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/ezixi
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://backhand.tech
+  * I am ezixi (https://keybase.io/ezixi) on keybase.
+  * I have a public key ASAUDyBlO10yWpiWo2DoqMCTFNCMW5NwHFFGt8bh2xHhIQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "012019c0e87230195aac554103142f925f342e9d736a54bbeb00e078c1b4fdb735a80a",
+      "host": "keybase.io",
+      "kid": "0120140f20653b5d325a9896a360e8a8c09314d08c5b93701c5146b7c6e1db11e1210a",
+      "uid": "3eb9b09f07c26b66f9c95dcc0523d419",
+      "username": "ezixi"
+    },
+    "merkle_root": {
+      "ctime": 1598709872,
+      "hash": "23909589840759c54678c4d1f3f423b8d4d7a68073e66001198c94a66c136be310da89d92910123f7d151ed26e30ff614b323e611ea3727ee451d1098ff92674",
+      "hash_meta": "38744b57cfb2e3752f40af168d6c4578019052b97a15c5d6a6cce241f014720d",
+      "seqno": 17415745
+    },
+    "service": {
+      "entropy": "U2AMClB8rA3D6CRMvzSH710V",
+      "hostname": "backhand.tech",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.5.0"
+  },
+  "ctime": 1598709934,
+  "expire_in": 504576000,
+  "prev": "56a02ae3538f6ff567902d131a15846c2b77202fe0342a0d69dfa9063f0b4f29",
+  "seqno": 18,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgFA8gZTtdMlqYlqNg6KjAkxTQjFuTcBxRRrfG4dsR4SEKp3BheWxvYWTESpcCEsQgVqAq41OPb/VnkC0TGhWEbCt3IC/gNCoNad+pBj8LTynEILB80MGW1XtEuCU5hwbd5Vo6JyCoGVrEivJ59GlX69DbAgHCo3NpZ8RAWSweP9JI20noqXUXiKaDao7UsY61MZRpBKVOCk6bwqHFomPo9P8AZszvEY9ci0pIAnRzdmbSprQ/gP/w+vj0BKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIKXVeIemMaPMR3wK1JNNXVAzaQnJ5U3CJieF5goPsD5io3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/ezixi
+
+==================================================================

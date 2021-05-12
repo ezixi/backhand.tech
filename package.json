@@ -4,7 +4,7 @@
   "description": "Linters and misc files for production of backhand.tech website.",
   "main": "index.js",
   "dependencies": {
-    "postcss": "^7.0.32",
+    "postcss": "^8.2.10",
     "stylelint": "^13.6.1"
   },
   "devDependencies": {
